@@ -19,7 +19,8 @@ The following considerations and proofs should encourage the readers of this con
 
 ## Simple examples
 
-The polygons have to be joined edge to edge in the "circular" way figure 1 suggests. Two examples of closed chains come easily to mind as they are well known from the domain of tessaltations; see figure 2.
+The polygons have to be joined edge to edge in the "circular" way figure 1 suggests. Two examples of closed chains come easily to mind as they are well known from the domain of tessalations; see figure 2.
 
 ![bild02](https://github.com/maboerg/Closed-chains-of-polygons/assets/88709288/df2f18ad-7c03-42e1-b1e5-ffdf6254e2fa)
 
+Figure 2
