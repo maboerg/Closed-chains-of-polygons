@@ -9,9 +9,9 @@ We want to assemble identical regular polygons in order to build closed chains o
 
 `m` is the number of vertices - meaning that we assemble `m`-polygons in a "circular" way.
 
-A possible start is shown in Figure 1.
+A possible start is shown in Figure 1. Notice the identical angles enclosed by neighbouring polygons.
 
-![bild01](https://github.com/maboerg/Closed-chains-of-polygons/assets/88709288/16ea5900-2500-41fc-aba4-c28176cf305b)
+![figure01](https://github.com/maboerg/Closed-chains-of-polygons/assets/88709288/1813d65b-7c50-4dc1-bba9-de354c39c31d)
 
 Figure 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`m = 5` Will this chain eventually close to a perfect and symmetrical chain?
 
@@ -19,8 +19,16 @@ The following considerations and proofs should encourage the readers of this con
 
 ## Simple examples
 
-The polygons have to be joined edge to edge in the "circular" way figure 1 suggests. Two examples of closed chains come easily to mind as they are well known from the domain of tessellations; see figure 2.
+The polygons have to be joined edge to edge in a "circular" way with identical angles enclosed by neighbouring polygons as suggested by figure 1.
 
-![bild02](https://github.com/maboerg/Closed-chains-of-polygons/assets/88709288/df2f18ad-7c03-42e1-b1e5-ffdf6254e2fa)
+`j` is the number of polygons in a closed chain.
 
-Figure 2
+Two examples of closed chains come easily to mind as they are well known from the domain of tessellations; see figure 2.
+
+![figure02](https://github.com/maboerg/Closed-chains-of-polygons/assets/88709288/d4b2eb65-1436-4163-9e90-f29f7fca8dcc)
+
+Figure 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Left:&nbsp;`m = j = 6`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Right:&nbsp;`m = 8`&nbsp;&nbsp;`j = 4`
+
+## Program
+
+Readers are encouraged to program pictures of the chains. They may draw upon the following enumeration of the chains.
