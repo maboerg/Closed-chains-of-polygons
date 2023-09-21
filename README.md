@@ -29,6 +29,18 @@ Two examples of closed chains come easily to mind as they are well known from th
 
 Figure 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Left:&nbsp;`m = j = 6`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Right:&nbsp;`m = 8`&nbsp;&nbsp;`j = 4`
 
+Here the first questions arise:
+- Are there other closed chains with the described property?
+- Finitely many?
+
+## More ways to create chains
+
+We introduce a parameter `n` in order to establish a system of chains.
+
+## Counting the closed chains
+
+Our aim is to assess for each `n` the number `a(n)` of closed chains. As yet `a(n)` could be `0` or `infinite`.
+
 ## Program
 
 Readers are encouraged to program pictures of the chains. They may draw upon the following Mathematica code providing the enumeration of the chains.
@@ -44,5 +56,13 @@ Do[Print["n = ", n, "   a(n) = ", Length[Divisors[8 + 4 n]]];
 Output
 
 ![figure03](https://github.com/maboerg/Closed-chains-of-polygons/assets/88709288/0e428ba5-7986-40cd-b8fa-e3c4cd8be78a)
+
+Here is a Mathematica-list of a(n)
+
+```
+Table[{n, Length[Divisors[8 + 4 n]]}, {n, 0, 107}] // TableForm
+```
+
+![figure04](https://github.com/maboerg/Closed-chains-of-polygons/assets/88709288/463cf555-42b3-44ee-a486-c1fb20635833)
 
 
