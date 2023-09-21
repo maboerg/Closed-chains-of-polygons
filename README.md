@@ -31,4 +31,18 @@ Figure 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Left:&nbsp;`m = j = 6`&nbsp;&nbsp;&nbsp;&n
 
 ## Program
 
-Readers are encouraged to program pictures of the chains. They may draw upon the following enumeration of the chains.
+Readers are encouraged to program pictures of the chains. They may draw upon the following Mathematica code providing the enumeration of the chains.
+
+```
+Do[Print["n = ", n, "   a(n) = ", Length[Divisors[8 + 4 n]]]; 
+ d = Divisors[8 + 4 n]; le = Length[d];
+ Do[t1 = d[[i]]; t2 = (8 + 4 n)/d[[i]]; 
+  Print["          m = ", t1 + 4 + 2 n, "   j = ", t2 + 2];
+  , {i, le}], {n, 0, 19}]
+ ``` 
+
+Output
+
+![figure03](https://github.com/maboerg/Closed-chains-of-polygons/assets/88709288/0e428ba5-7986-40cd-b8fa-e3c4cd8be78a)
+
+
