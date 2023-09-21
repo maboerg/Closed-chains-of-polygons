@@ -35,11 +35,21 @@ Here the first questions arise:
 
 ## More ways to create chains
 
-We introduce a parameter `n` in order to establish a system of chains.
+We introduce a parameter `n` in order to establish a system of chains. Let's have a look on the "inner star".
 
 ## Counting the closed chains
 
 Our aim is to assess for each `n` the number `a(n)` of closed chains. As yet `a(n)` could be `0` or `infinite`.
+
+## Parameters overview
+
+`n`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neighbouring points of the inner star are n vertices apart.
+
+`a(n)`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number of closed circular chains of identical regular polygons.
+
+`m`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number of vertices in each polygon.
+
+`j`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number of polygons in the chain.
 
 ## Program
 
