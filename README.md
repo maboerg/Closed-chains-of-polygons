@@ -54,7 +54,11 @@ Now we have a parameter `n` establishing a system of chains.
 - `n = 1`&nbsp;&nbsp;&nbsp;&nbsp;see an example in figure 3 left
 - `n = 2`&nbsp;&nbsp;&nbsp;&nbsp;see an example in figure 3 right
 
-If you (the reader) doubt if this is leading anywhere we present the chain in figure 4 for further motivation. I want to remark that with this picture we enter a domain of highly aesthetic geometry.
+If you (the reader) doubt if this is leading anywhere we present the closed chain in figure 4 for further motivation. I want to remark that with this picture we enter a domain of highly aesthetic geometry.
+
+![figure02e](https://github.com/maboerg/Closed-chains-of-polygons/assets/88709288/86325691-f641-4227-887f-f210b5cdca06)
+
+Figure 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`n = 3   m = j = 12`
 
 ## Counting the closed chains
 
@@ -62,7 +66,7 @@ Our aim is to assess for each `n` the number `a(n)` of closed chains. As yet `a(
 
 ## Parameters overview
 
-`n`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neighbouring points of the inner star are n vertices apart.
+`n`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number of "free" inner neighbouring vertices of each polygon. Neighbouring points of the inner star lie `n` vertices apart.
 
 `a(n)`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number of closed circular chains of identical regular polygons.
 
