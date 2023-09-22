@@ -35,7 +35,7 @@ Here the first questions arise:
 
 ## More ways to create chains
 
-Before we present any theory let's have a look at other ways of joining the polygons. In figures 1 and 2 exactly two neighbouring vertices of each polygon lie in the interior of the chain. But that can be changed. In figure 3 we see three resp. four neighbouring vertices lying in the interior.
+Before we present any theory let's have a look at other ways of joining the polygons. In figures 1 and 2 exactly `2` neighbouring vertices of each polygon lie in the interior of the chain. But that can be changed. In figure 3 we see `3` resp. `4` neighbouring vertices lying in the interior.
 
 ![figure02b](https://github.com/maboerg/Closed-chains-of-polygons/assets/88709288/57606683-d43d-4c21-98e1-f14bcf2cb531)
 
@@ -46,11 +46,13 @@ Figure 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`m = 7`&nbsp;&nbsp;and&nbsp;&nbsp;`m = 10`
 - Can we proceed to more neighbouring vertices lying in the interior?
 - How far can we proceed?
   
-We introduce a parameter `n` in order to establish a system of chains. We introduced the number of neighbouring vertices of each polygon lying in the interior of the chain (this number is 2 in figures 1, 2 and 3 resp. 4 in figure 3). If we reWe reduce this number by two
+We introduced the number of neighbouring vertices of each polygon lying in the interior of the chain (in figures 1, 2, this number is `2`; in figure 3 this number is `3` resp. `4`). If we ignore the vertices where two polygons meet we reduce this number by `2`. The reduced number will be denoted by `n`. It is the number of "free" inner neighbouring vertices of each polygon. For another definition of `n` we describe the interior of the chain as "star" with `n` "points" (identical to the number of polygons); then neighbouring points lie `n` vertices apart.
 
+Now we have a parameter `n` establishing a system of chains. 
 
-
-Let's have a look on the "inner star".
+- `n = 0`&nbsp;&nbsp;&nbsp;&nbsp;see three examples in figures 1, 2
+- `n = 1`&nbsp;&nbsp;&nbsp;&nbsp;see an example in figure 3 left
+- `n = 2`&nbsp;&nbsp;&nbsp;&nbsp;see an example in figure 3 right
 
 ## Counting the closed chains
 
