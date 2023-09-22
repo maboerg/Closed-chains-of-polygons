@@ -30,12 +30,27 @@ Two examples of closed chains come easily to mind as they are well known from th
 Figure 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Left:&nbsp;`m = j = 6`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Right:&nbsp;`m = 8`&nbsp;&nbsp;`j = 4`
 
 Here the first questions arise:
-- Are there other closed chains with the described property?
+- Are there other closed chains similar to those in figure 2 with the described properties?
 - Finitely many?
 
 ## More ways to create chains
 
-We introduce a parameter `n` in order to establish a system of chains. Let's have a look on the "inner star".
+Before we present any theory let's have a look at other ways of joining the polygons. In figures 1 and 2 exactly two neighbouring vertices of each polygon lie in the interior of the chain. But that can be changed. In figure 3 we see three resp. four neighbouring vertices lying in the interior.
+
+![figure02b](https://github.com/maboerg/Closed-chains-of-polygons/assets/88709288/57606683-d43d-4c21-98e1-f14bcf2cb531)
+
+Figure 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`m = 7`&nbsp;&nbsp;and&nbsp;&nbsp;`m = 10`
+
+- Is it possible to build closed chains by joining identical regular polygons as suggested by figure 3?
+- Are there finitely many of them?
+- Can we proceed to more neighbouring vertices lying in the interior?
+- How far can we proceed?
+  
+We introduce a parameter `n` in order to establish a system of chains. We introduced the number of neighbouring vertices of each polygon lying in the interior of the chain (this number is 2 in figures 1, 2 and 3 resp. 4 in figure 3). If we reWe reduce this number by two
+
+
+
+Let's have a look on the "inner star".
 
 ## Counting the closed chains
 
