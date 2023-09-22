@@ -54,6 +54,8 @@ Now we have a parameter `n` establishing a system of chains.
 - `n = 1`&nbsp;&nbsp;&nbsp;&nbsp;see an example in figure 3 left
 - `n = 2`&nbsp;&nbsp;&nbsp;&nbsp;see an example in figure 3 right
 
+If you (the reader) doubt if this is leading anywhere we present the chain in figure 4 for further motivation. I want to remark that with this picture we enter a domain of highly aesthetic geometry.
+
 ## Counting the closed chains
 
 Our aim is to assess for each `n` the number `a(n)` of closed chains. As yet `a(n)` could be `0` or `infinite`.
