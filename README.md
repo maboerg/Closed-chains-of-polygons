@@ -90,7 +90,7 @@ Output
 
 ![figure03](https://github.com/maboerg/Closed-chains-of-polygons/assets/88709288/0e428ba5-7986-40cd-b8fa-e3c4cd8be78a)
 
-Here is a Mathematica list of a(n)
+Here is a Mathematica list of a(n):
 
 ```
 Table[{n, Length[Divisors[8 + 4 n]]}, {n, 0, 107}] // TableForm
