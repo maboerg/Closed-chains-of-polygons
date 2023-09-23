@@ -78,14 +78,23 @@ Now to exact geometry. Here are the parameters involved:
 
 `j`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number of polygons in the chain.
 
-Figure 5 shows the angles involved in our problem. We want to examine the case of closed chains. Then `\alpha = 360°/j`.
+Figure 5 shows the angles involved in our problem.
 
-g
-
-
-![figure02g](https://github.com/maboerg/Closed-chains-of-polygons/assets/88709288/29c7e392-210b-4b0f-9fd8-8ebfe919a0b0)
+![figure02h](https://github.com/maboerg/Closed-chains-of-polygons/assets/88709288/f1d5c28b-d545-4394-94f9-b7fc035ee257)
 
 Figure 5
+
+We want to examine the case of closed chains. From figure 5 we get:
+
+`alpha = 360°/j`
+
+`beta = 360°/m` (equals the central angle of the polygons)
+
+`gamma = 180° + 360°/m`
+
+The sum of angles in the `(n+3)-gon` in figure 5 is `(n+1) 180°`.
+
+`(n+1) 180° = alpha + 2 beta + n gamma = 360°/j + 720°/m + n 180° + n 360°/m`
 
 ## Program
 
