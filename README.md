@@ -115,13 +115,44 @@ This is our main result:
 
 With `(t1, t2)` running through all pairs of divisors of `8+4n` (meaning `t1 t2 = 8 + 4n`) we get
 
-`j = t1 + 2`&nbsp;&nbsp;&nbsp;&nbsp;`m = t2 + 4 + 2n`
+`m = t1 + 4 + 2n`&nbsp;&nbsp;&nbsp;&nbsp;`j = t2 + 2`
+
+xxxx
+
+mind. 6 mit Ausnahme n=0, warum
+
+alle m>5 kommen vor, warum
+
+alle j>2 kommen vor , warum
+
+xxxx
+
+We got a complete result:
+
+- There are infinitely many closed chains of identical regular polygons.
+
+- For each `n` there are several and finitely many closed chains.
+
+- For `n = 0` there are `a(0) = 4` closed chains. For `n = 2` there are `a(2) = 5` closed chains. For all other `n` there are `a(n) > 5` closed chains.
+
+- The exact number of closed chains is `a(n) = d(8 + 4n)`.
+
+- The number of vertices in each polygon is `m = t + 4 + 2n` where `t` runs through the divisors of `8 + 4n`. The corresponding number of polygons in the chain is `j = (8+4n)/t + 2`.
+
+- Changing the roles of `m` and `j` we get: The number of polygons in the chain is `j = t + 2` where `t` runs through the divisors of `8 + 4n`. The corresponding number of vertices in each polygon is `m = (8+4n)/t + 4 + 2n`.
+
+- For every `m > 4` exists a closed chain of `m-gons`.
+
+- For every `j > 2` exists a closed chain with exactly `j` polygons.
+
+
+
 
 Comparing this result with figures
 
 xxx
 
-not 0 per n, not infinite many for n, but infinite many over all n
+
 
 ## Program
 
