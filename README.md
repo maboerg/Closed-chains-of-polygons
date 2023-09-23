@@ -78,7 +78,10 @@ Now to exact geometry. Here are the parameters involved:
 
 `j`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number of polygons in the chain.
 
-Figure 5 shows the angles involved in our problem. We want to examine the case of closed chains. Then `&alpha; = 360°/j`.
+Figure 5 shows the angles involved in our problem. We want to examine the case of closed chains. Then `\alpha = 360°/j`.
+
+g
+
 
 ![figure02g](https://github.com/maboerg/Closed-chains-of-polygons/assets/88709288/29c7e392-210b-4b0f-9fd8-8ebfe919a0b0)
 
