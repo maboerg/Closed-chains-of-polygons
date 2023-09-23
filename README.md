@@ -88,13 +88,40 @@ We want to examine the case of closed chains. From figure 5 we get:
 
 `alpha = 360°/j`
 
-`beta = 360°/m` (equals the central angle of the polygons)
+`beta = 360°/m` &nbsp;&nbsp;(equals the central angle of the polygons)
 
 `gamma = 180° + 360°/m`
 
 The sum of angles in the `(n+3)-gon` in figure 5 is `(n+1) 180°`.
 
-`(n+1) 180° = alpha + 2 beta + n gamma = 360°/j + 720°/m + n 180° + n 360°/m`
+`(n+1) 180° = alpha + 2 beta + n gamma = 360°/j + 720°/m + n 180° + n 360/m`
+
+`2/j + (4+2n)/m = 1`
+
+`jm = 2m + j(4+2n)`
+
+Now we have a short equation for `n, m, j`. We can transform this equation in two ways:
+
+`2m = j(m-4-2n)`&nbsp;&nbsp;&nbsp;&nbsp;and&nbsp;&nbsp;&nbsp;&nbsp;`m(j-2) = j(4+2n)`
+
+`2m(4+2n) = j(4+2n)(m-4-2n) =  m(j-2)(m-4-2n)`
+
+`8 + 4n = (j-2)(m-4-2n)`
+
+With `n` given we have `j - 2` and `m - 4 - 2n` as divisors of `8 + 4n`. The number of divisors of `k` is denoted by `d(k)`.
+This is our main result:
+
+`a(n) = d(8 + 4n)`
+
+With `(t1, t2)` running through all pairs of divisors of `8+4n` (meaning `t1 t2 = 8 + 4n`) we get
+
+`j = t1 + 2`&nbsp;&nbsp;&nbsp;&nbsp;`m = t2 + 4 + 2n`
+
+Comparing this result with figures
+
+xxx
+
+not 0 per n, not infinite many for n, but infinite many over all n
 
 ## Program
 
