@@ -7,7 +7,7 @@ WORK IN PROGRESS - TO BE COMPLETED SOON
 
 We want to assemble identical regular polygons in order to build closed chains of high symmetry.
 
-`m` is the number of vertices - meaning that we assemble `m`-polygons in a "circular" way.
+`m` is the number of vertices - meaning that we assemble `m-gons` in a "circular" way.
 
 A possible start is shown in figure 1.
 
@@ -137,9 +137,9 @@ We got a complete result:
 
 - The exact number of closed chains is `a(n) = d(8 + 4n)`.
 
-- The number of vertices in each polygon is `m = t + 4 + 2n` where `t` runs through the divisors of `8 + 4n`. The corresponding number of polygons in the chain is `j = (8+4n)/t + 2`.
+- The number of vertices in each polygon is `m = t + 4 + 2n` where `t` runs through the divisors of `8 + 4n`. The corresponding number of `m-gons` in the chain is `j = (8+4n)/t + 2`.
 
-- Changing the roles of `m` and `j` we get: The number of polygons in the chain is `j = t + 2` where `t` runs through the divisors of `8 + 4n`. The corresponding number of vertices in each polygon is `m = (8+4n)/t + 4 + 2n`.
+- Changing the roles of `m` and `j` we get: The number of polygons in the chain is `j = t + 2` where `t` runs through the divisors of `8 + 4n`. The corresponding number of vertices in each of the `j` polygons is `m = (8+4n)/t + 4 + 2n`.
 
 - For every `m > 4` exists a closed chain of `m-gons`.
 
