@@ -64,7 +64,11 @@ Figure 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`n = 3   m = j = 12`
 
 Our aim is to assess for each `n` the number `a(n)` of closed chains. As yet `a(n)` could be `0` or `infinite`.
 
-## Parameters overview
+- `n = 0` yields an inner regular polygon.
+- `n = 1` yields an interior proper star with identical edges and angles.
+- `n > 1` yield star-like interiors with identical edges.
+
+Now to exact geometry. Here are the parameters involved:
 
 `n`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number of "free" inner neighbouring vertices of each polygon. Neighbouring points of the inner star lie `n` vertices apart.
 
@@ -73,6 +77,12 @@ Our aim is to assess for each `n` the number `a(n)` of closed chains. As yet `a(
 `m`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number of vertices in each polygon.
 
 `j`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number of polygons in the chain.
+
+Figure 5 shows the angles involved in our problem. We want to examine the case of closed chains. Then `&alpha; = 360°/j`.
+
+![figure02g](https://github.com/maboerg/Closed-chains-of-polygons/assets/88709288/29c7e392-210b-4b0f-9fd8-8ebfe919a0b0)
+
+Figure 5
 
 ## Program
 
