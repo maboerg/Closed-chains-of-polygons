@@ -106,27 +106,22 @@ Now we have a short equation for `n, m, j`. We can transform this equation in tw
 
 `2m(4+2n) = j(4+2n)(m-4-2n) =  m(j-2)(m-4-2n)`
 
-`8 + 4n = (j-2)(m-4-2n)`
+(1)&nbsp;&nbsp;&nbsp;`8 + 4n = (j-2)(m-4-2n)`
 
 With `n` given we have `j - 2` and `m - 4 - 2n` as divisors of `8 + 4n`. The number of divisors of `k` is denoted by `d(k)`.
 This is our main result:
 
-`a(n) = d(8 + 4n)`
+(2)&nbsp;&nbsp;&nbsp;`a(n) = d(8 + 4n)`
 
 With `(t1, t2)` running through all pairs of divisors of `8+4n` (meaning `t1 t2 = 8 + 4n`) we get
 
 `m = t1 + 4 + 2n`&nbsp;&nbsp;&nbsp;&nbsp;`j = t2 + 2`
 
-xxxx
+The divisors `1, 2, 4, 2+n, 4+2n, 8+4n` appear for every `n`. For `n=0` there are two doublets, leaving `1, 2, 4 ,6`. For `n=2` there is one doublet, leaving `1, 2, 4, 8, 16`.
 
-The divisors 1, 2, 4, 
-mind. 6 mit Ausnahme n=0, warum
+`m-4-2n > 0`, so `m > 5`.  With `m-4-2n = 1` all odd `m>3` appear, with `m-4-2n = 2` all even `m>4` appear, with `n` running from `0`.
 
-alle m>5 kommen vor, warum
-
-alle j>2 kommen vor , warum
-
-xxxx
+With n running, `8 + 4n = 4(2+n)` has all natural `t` as divisors. With `t = j-2` all `j>2` will appear.
 
 We got a complete result:
 
@@ -146,14 +141,17 @@ We got a complete result:
 
 - For every `j > 2` exists a closed chain with exactly `j` polygons.
 
+We compare this result with the figures above:
 
+In figure 1 we have `n = 0` and `m = 5`. From (1) we get `j = 10`. Thus the chain will eventually close, see figure 6.
 
+In figure 2 we have `n = 0`. We know a(0) = 4. There must be two other chains with a regular polygon as interior. One of these is the completion of figure 1. See figure 6 for all four chains.
 
-Comparing this result with figures
+In figure 3 left we have `n = 1` and `m = 7`. From (1) we get `j = 14`. Thus the chain will eventually close, see figure 7.
 
-xxx
+In figure 3 right we have `n = 2` and `m = 10`. From (1) we get `j = 10`. Thus the chain will eventually close, see figure 8.
 
-
+In figure 4 we have `n = 3` and `m = j = 12`. This matches with (1), see figure 9.
 
 ## Program
 
