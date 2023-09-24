@@ -117,11 +117,11 @@ With `(t1, t2)` running through all pairs of divisors of `8+4n` (meaning `t1 t2 
 
 `m = t1 + 4 + 2n`&nbsp;&nbsp;&nbsp;&nbsp;`j = t2 + 2`
 
-The divisors `1, 2, 4, 2+n, 4+2n, 8+4n` appear for every `n`. For `n=0` there are two doublets, leaving `1, 2, 4 ,6`. For `n=2` there is one doublet, leaving `1, 2, 4, 8, 16`.
+The divisors `1, 2, 4, 2+n, 4+2n, 8+4n` appear for every `n`. For `n = 0` there are two doublets, leaving `1, 2, 4 ,6`. For `n = 2` there is one doublet, leaving `1, 2, 4, 8, 16`.
 
-`m-4-2n > 0`, so `m > 5`.  With `m-4-2n = 1` all odd `m>3` appear, with `m-4-2n = 2` all even `m>4` appear, with `n` running from `0`.
+`m - 4 - 2n > 0`, so `m > 5`.  With `m - 4 - 2n = 1` all odd `m > 3` appear, with `m - 4 - 2n = 2` all even `m > 4` appear, with `n` running from `0`.
 
-With n running, `8 + 4n = 4(2+n)` has all natural `t` as divisors. With `t = j-2` all `j>2` will appear.
+With `n` running, `8 + 4n = 4(2 + n)` has all natural `t` as divisors. With `t = j - 2` all `j > 2` will appear.
 
 We got a complete result:
 
@@ -145,7 +145,7 @@ We compare this result with the figures above:
 
 In figure 1 we have `n = 0` and `m = 5`. From (1) we get `j = 10`. Thus the chain will eventually close, see figure 6.
 
-In figure 2 we have `n = 0`. We know a(0) = 4. There must be two other chains with a regular polygon as interior. One of these is the completion of figure 1. See figure 6 for all four chains.
+In figure 2 we have `n = 0`. We know `a(0) = 4`. There must be two other chains with a regular polygon as interior. One of these is the completion of figure 1. See figure 6 for all four chains.
 
 In figure 3 left we have `n = 1` and `m = 7`. From (1) we get `j = 14`. Thus the chain will eventually close, see figure 7.
 
