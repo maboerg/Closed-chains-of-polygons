@@ -119,6 +119,7 @@ With `(t1, t2)` running through all pairs of divisors of `8+4n` (meaning `t1 t2 
 
 xxxx
 
+The divisors 1, 2, 4, 
 mind. 6 mit Ausnahme n=0, warum
 
 alle m>5 kommen vor, warum
