@@ -153,7 +153,7 @@ In figure 3 right we have `n = 2` and `m = 10`. From (1) we get `j = 10`. Thus t
 
 In figure 4 we have `n = 3` and `m = j = 12`. This matches with (1), see figure 9.
 
-## Program
+## Programs
 
 Readers are encouraged to program pictures of the chains. They may draw upon the following Mathematica code providing the enumeration of the chains.
 
