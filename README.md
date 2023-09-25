@@ -177,4 +177,14 @@ Table[{n, Length[Divisors[8 + 4 n]]}, {n, 0, 107}] // TableForm
 
 ![figure04](https://github.com/maboerg/Closed-chains-of-polygons/assets/88709288/463cf555-42b3-44ee-a486-c1fb20635833)
 
+## Pictures
+
+![figure06](https://github.com/maboerg/Closed-chains-of-polygons/assets/88709288/f4d88a32-2d85-4e85-a7a0-f566f2caf7f5)
+
+Figure 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`n = 0`
+
+
+
+
+
 
