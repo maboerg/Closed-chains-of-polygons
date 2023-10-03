@@ -184,12 +184,21 @@ Table[{n, Length[Divisors[8 + 4 n]]}, {n, 0, 107}] // TableForm
 Figure 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`n = 0`
 
 &nbsp;
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 &nbsp;
 
 ![figure07b](https://github.com/maboerg/Closed-chains-of-polygons/assets/88709288/a1daa5fc-5b43-40e1-8ee3-0014abdc5268)
 
 Figure 7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`n = 1`
+
+&nbsp;
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+&nbsp;
+
+![figure08](https://github.com/maboerg/Closed-chains-of-polygons/assets/88709288/a78381ea-862d-4e73-a996-f986ef2eb4b0)
+
+Figure 8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`n = 2`
+
 
 
 
