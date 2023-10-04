@@ -1,7 +1,7 @@
 # Closed-chains-of-polygons
 Number of closed chains of identical regular polygons
 
-## Introduction
+### Introduction
 
 WORK IN PROGRESS - TO BE COMPLETED SOON
 
@@ -17,7 +17,7 @@ Figure 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`m = 5`&nbsp;&nbsp; Will this chain eventu
 
 The following considerations and proofs should encourage the readers of this contribution to program all possible ways for closed chains of regular polygons.
 
-## Simple examples
+### Simple examples
 
 The polygons have to be joined edge to edge in a "circular" way as suggested by figure 1.
 
@@ -33,7 +33,7 @@ Here the first questions arise:
 - Are there other closed chains similar to those in figure 2 with the described properties?
 - Finitely many?
 
-## More ways to create chains
+### More ways to create chains
 
 Before we present any theory let's have a look at other ways of joining the polygons. In figures 1 and 2 exactly `2` neighbouring vertices of each polygon lie in the interior of the chain. But that can be changed. In figure 3 we see `3` resp. `4` neighbouring vertices lying in the interior.
 
@@ -60,7 +60,7 @@ If you (the reader) doubt if this is leading anywhere we present the closed chai
 
 Figure 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`n = 3   m = j = 12`
 
-## Counting the closed chains
+### Counting the closed chains
 
 Our aim is to assess for each `n` the number `a(n)` of closed chains. As yet `a(n)` could be `0` or `infinite`.
 
@@ -153,7 +153,7 @@ In figure 3 right we have `n = 2` and `m = 10`. From (1) we get `j = 10`. Thus t
 
 In figure 4 we have `n = 3` and `m = j = 12`. This matches with (1), see figure 9.
 
-## Programs
+### Programs
 
 Readers are encouraged to program pictures of the chains. They may draw upon the following Mathematica code providing the enumeration of the chains.
 
@@ -177,7 +177,7 @@ Table[{n, Length[Divisors[8 + 4 n]]}, {n, 0, 107}] // TableForm
 
 ![figure04](https://github.com/maboerg/Closed-chains-of-polygons/assets/88709288/463cf555-42b3-44ee-a486-c1fb20635833)
 
-## Pictures
+### Pictures
 
 ![figure06c](https://github.com/maboerg/Closed-chains-of-polygons/assets/88709288/0b2fde28-9d57-4b6e-bd94-23e0ddeb0dcb)
 
@@ -223,6 +223,6 @@ The (more or less) star-like interiors of the chains give pleasant pictures in t
 
 
 
-## OEIS
+### OEIS
 
 
