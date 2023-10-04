@@ -207,6 +207,22 @@ Figure 8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`n = 2`
 
 Figure 9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`n = 3`
 
+&nbsp;
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+&nbsp;
 
+The pictures appeal by their beauty. We stopped at `n = 3`. With increasing `n` the polygons appear more and more like circles, though some more nice examples can be produced - the reader should try and display them by a suitable program.
+
+The aesthetic value of the chains may be attributed to a variety of notions in art and nature. Some of these are shown in figure 10.
+
+n=3  m=11  j=22  necklace
+     m=12  j=12  bracelet
+
+n=2  m=12  j=6   blossom
+n=1  m=8   j=8   blossom, flower
+
+
+
+OEIS
 
 
