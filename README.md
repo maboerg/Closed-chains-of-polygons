@@ -133,6 +133,8 @@ We got a complete result:
 
 - The exact number of closed chains is `a(n) = d(8 + 4n)`.
 
+- `a(n) = 6   <--->   n = 6  or  n+2 prime`.
+
 - The number of vertices in each polygon is `m = t + 4 + 2n` where `t` runs through the divisors of `8 + 4n`. The corresponding number of `m-gons` in the chain is `j = (8+4n)/t + 2`.
 
 - Changing the roles of `m` and `j` we get: The number of polygons in the chain is `j = t + 2` where `t` runs through the divisors of `8 + 4n`. The corresponding number of vertices in each of the `j` polygons is `m = (8+4n)/t + 4 + 2n`.
