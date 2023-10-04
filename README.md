@@ -213,16 +213,16 @@ Figure 9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`n = 3`
 
 The pictures appeal by their beauty. We stopped at `n = 3`. With increasing `n` the polygons appear more and more like circles, though some more nice examples can be produced - the reader should try and display them by a suitable program.
 
-The aesthetic value of the chains may be attributed to a variety of notions in art and nature. Some of these are shown in figure 10.
+The aesthetic value of the chains may be attributed to a variety of notions in art and nature. Some of the notions coming to mind are shown in figure 10.
 
-n=3  m=11  j=22  necklace
-     m=12  j=12  bracelet
+![figure10](https://github.com/maboerg/Closed-chains-of-polygons/assets/88709288/8112e2d6-d29e-41b2-a1e6-16764fc7218c)
 
-n=2  m=12  j=6   blossom
-n=1  m=8   j=8   blossom, flower
+Figure 10
+
+The (more or less) star-like interiors of the chains give pleasant pictures in their own way, see figure 11.
 
 
 
-OEIS
+## OEIS
 
 
