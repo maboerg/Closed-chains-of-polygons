@@ -199,10 +199,13 @@ Figure 7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`n = 1`
 
 Figure 8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`n = 2`
 
+&nbsp;
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+&nbsp;
 
+![figure09](https://github.com/maboerg/Closed-chains-of-polygons/assets/88709288/cf91c70f-f241-412a-9642-21509dd71c59)
 
-
-
+Figure 9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`n = 3`
 
 
 
