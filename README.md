@@ -117,7 +117,7 @@ With `(t1, t2)` running through all pairs of divisors of `8+4n` (meaning `t1 t2 
 
 `m = t1 + 4 + 2n`&nbsp;&nbsp;&nbsp;&nbsp;`j = t2 + 2`
 
-The divisors `1, 2, 4, 2+n, 4+2n, 8+4n` appear for every `n`. For `n = 0` there are two doublets, leaving `1, 2, 4 ,6`. For `n = 2` there is one doublet, leaving `1, 2, 4, 8, 16`.
+The divisors `1, 2, 4, 2+n, 4+2n, 8+4n` appear for every `n`. For `n = 0` there are two doublets, leaving `1, 2, 4, 6`. For `n = 2` there is one doublet, leaving `1, 2, 4, 8, 16`.
 
 `m - 4 - 2n > 0`, so `m > 5`.  With `m - 4 - 2n = 1` all odd `m > 3` appear, with `m - 4 - 2n = 2` all even `m > 4` appear, with `n` running from `0`.
 
