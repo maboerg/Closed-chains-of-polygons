@@ -229,4 +229,12 @@ Figure 11
 
 ### OEIS
 
+The sequence `d(.)` rendering the number of divisors of natural numbers is available in the database OEIS as A000005.
+
+We got `a(n) = d(8 + 4n)` in (2). Remember that `a(n)` starts with `n=0`. See the sequence A000005 with a(n) highlighted:
+
+1, 2, 2, 3, 2, 4, 2, `4`, 3, 4, 2, `6`, 2, 4, 4, `5`, 2, 6, 2, `6`, 4, 4, 2, `8`, 3, 4, 4, `6`, 2, 8, 2, `6`, 4, 4, 4, `9`, 2, 4, 4, `8`, 2, 8, 2, `6`, 6, 4, 2, `10`, 3, 6, 4, `6`, 2, 8, 4, `8`, 4, 4, 2, `12`, 2, 4, 6, `7`, 4, 8, 2, `6`, 4, 8, 2, `12`, 2, 4, 6, `6`, 4, 8, 2, `10`, 5, 4, 2, `12`, 4, 4, 4, `8`, 2, 12, 4, `6`, 4, 4, 4, `12`, 2, 6, 6, `9`, 2, 8, 2, `8`
+
+
+
 
