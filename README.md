@@ -223,7 +223,9 @@ Figure 10
 
 The (more or less) star-like interiors of the chains give pleasant pictures in their own way, see figure 11.
 
+![figure11b](https://github.com/maboerg/Closed-chains-of-polygons/assets/88709288/59d90c50-0da3-4b6a-97c4-ab484d5e137f)
 
+Figure 11
 
 ### OEIS
 
