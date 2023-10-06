@@ -3,8 +3,6 @@ Number of closed chains of identical regular polygons
 
 ### Introduction
 
-WORK IN PROGRESS - TO BE COMPLETED SOON
-
 We want to assemble identical regular polygons in order to build closed chains of high symmetry.
 
 `m` is the number of vertices - meaning that we assemble `m-gons` in a "circular" way.
