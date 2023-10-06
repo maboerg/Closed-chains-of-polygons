@@ -109,7 +109,7 @@ Now we have a short equation for `n, m, j`. We can transform this equation in tw
 With `n` given we have `j - 2` and `m - 4 - 2n` as divisors of `8 + 4n`. The number of divisors of `k` is denoted by `d(k)`.
 This is our main result:
 
-(2)&nbsp;&nbsp;&nbsp;$\mathbf{a(n) = d(8 + 4n)}$
+(2)&nbsp;&nbsp;&nbsp; $\mathbf{a(n) = d(8 + 4n)}$
 
 With `(t1, t2)` running through all pairs of divisors of `8+4n` (meaning `t1 t2 = 8 + 4n`) we get
 
