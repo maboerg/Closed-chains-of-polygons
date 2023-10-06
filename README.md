@@ -5,7 +5,7 @@ Number of closed chains of identical regular polygons
 
 We want to assemble identical regular polygons in order to build closed chains of high symmetry.
 
-`m` is the number of vertices - meaning that we assemble `m-gons` in a "circular" way.
+$m~$ is the number of vertices - meaning that we assemble `m-gons` in a "circular" way.
 
 A possible start is shown in figure 1.
 
@@ -19,7 +19,7 @@ The following considerations and proofs should encourage the readers of this con
 
 The polygons have to be joined edge to edge in a "circular" way as suggested by figure 1.
 
-`j` is the number of polygons in a closed chain.
+$j~$ is the number of polygons in a closed chain.
 
 Two examples of closed chains come easily to mind as they are well known from the domain of tessellations; see figure 2.
 
@@ -33,7 +33,7 @@ Here the first questions arise:
 
 ### More ways to create chains
 
-Before we present any theory let's have a look at other ways of joining the polygons. In figures 1 and 2 exactly `2` neighbouring vertices of each polygon lie in the interior of the chain. But that can be changed. In figure 3 we see `3` resp. `4` neighbouring vertices lying in the interior.
+Before we present any theory let's have a look at other ways of joining the polygons. In figures 1 and 2 exactly&nbsp; $2~$ neighbouring vertices of each polygon lie in the interior of the chain. But that can be changed. In figure 3 we see&nbsp; $3~$ resp.&nbsp; $4~$ neighbouring vertices lying in the interior.
 
 ![figure02b](https://github.com/maboerg/Closed-chains-of-polygons/assets/88709288/57606683-d43d-4c21-98e1-f14bcf2cb531)
 
@@ -44,9 +44,9 @@ Figure 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`m = 7`&nbsp;&nbsp;and&nbsp;&nbsp;`m = 10`
 - Can we proceed to more neighbouring vertices lying in the interior?
 - How far can we proceed?
   
-We introduced the number of neighbouring vertices of each polygon lying in the interior of the chain (in figures 1, 2, this number is `2`; in figure 3 this number is `3` resp. `4`). If we ignore the vertices where two polygons meet we reduce this number by `2`. The reduced number will be denoted by `n`. It is the number of "free" inner neighbouring vertices of each polygon. For another definition of `n` we describe the interior of the chain as "star" with `n` "points" (identical to the number of polygons); then neighbouring points lie `n` vertices apart.
+We introduced the number of neighbouring vertices of each polygon lying in the interior of the chain (in figures 1, 2, this number is&nbsp; $2~$;&nbsp; in figure 3 this number is&nbsp; $3~$ resp.&nbsp; $4~$).&nbsp; If we ignore the vertices where two polygons meet we reduce this number by&nbsp; $2~$.&nbsp; The reduced number will be denoted by&nbsp; $n~$.&nbsp; It is the number of "free" inner neighbouring vertices of each polygon. For another definition of $n$ we describe the interior of the chain as "star" with $n$ "points" (identical to the number of polygons); then neighbouring points lie $n$ vertices apart.
 
-Now we have a parameter `n` establishing a system of chains. 
+Now we have a parameter $n$ establishing a system of chains. 
 
 - `n = 0`&nbsp;&nbsp;&nbsp;&nbsp;see three examples in figures 1, 2
 - `n = 1`&nbsp;&nbsp;&nbsp;&nbsp;see an example in figure 3 left
@@ -109,7 +109,7 @@ Now we have a short equation for `n, m, j`. We can transform this equation in tw
 With `n` given we have `j - 2` and `m - 4 - 2n` as divisors of `8 + 4n`. The number of divisors of `k` is denoted by `d(k)`.
 This is our main result:
 
-(2)&nbsp;&nbsp;&nbsp;`a(n) = d(8 + 4n)`
+(2)&nbsp;&nbsp;&nbsp;$\mathbf{a(n) = d(8 + 4n)}$
 
 With `(t1, t2)` running through all pairs of divisors of `8+4n` (meaning `t1 t2 = 8 + 4n`) we get
 
@@ -231,7 +231,7 @@ The sequence `d(.)` rendering the number of divisors of natural numbers is avail
 
 We got `a(n) = d(8 + 4n)` in (2). Remember that `a(n)` starts with `n=0`. See the sequence A000005 with a(n) highlighted:
 
-1, 2, 2, 3, 2, 4, 2, `4`, 3, 4, 2, `6`, 2, 4, 4, `5`, 2, 6, 2, `6`, 4, 4, 2, `8`, 3, 4, 4, `6`, 2, 8, 2, `6`, 4, 4, 4, `9`, 2, 4, 4, `8`, 2, 8, 2, `6`, 6, 4, 2, `10`, 3, 6, 4, `6`, 2, 8, 4, `8`, 4, 4, 2, `12`, 2, 4, 6, `7`, 4, 8, 2, `6`, 4, 8, 2, `12`, 2, 4, 6, `6`, 4, 8, 2, `10`, 5, 4, 2, `12`, 4, 4, 4, `8`, 2, 12, 4, `6`, 4, 4, 4, `12`, 2, 6, 6, `9`, 2, 8, 2, `8`
+1, 2, 2, 3, 2, 4, 2, $\textbf{4}$, 3, 4, 2, $\textbf{6}$, 2, 4, 4, $\textbf{5}$, 2, 6, 2, `6`, 4, 4, 2, `8`, 3, 4, 4, `6`, 2, 8, 2, `6`, 4, 4, 4, `9`, 2, 4, 4, `8`, 2, 8, 2, `6`, 6, 4, 2, `10`, 3, 6, 4, `6`, 2, 8, 4, `8`, 4, 4, 2, `12`, 2, 4, 6, `7`, 4, 8, 2, `6`, 4, 8, 2, `12`, 2, 4, 6, `6`, 4, 8, 2, `10`, 5, 4, 2, `12`, 4, 4, 4, `8`, 2, 12, 4, `6`, 4, 4, 4, `12`, 2, 6, 6, `9`, 2, 8, 2, `8`
 
 
 
