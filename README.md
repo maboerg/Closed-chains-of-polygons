@@ -92,15 +92,15 @@ $\gamma = 180° + 360°/m$
 
 The sum of angles in the&nbsp; $(n+3)$-gon&nbsp; in figure 5 is&nbsp; $(n+1) 180°$.
 
-$(n+1) 180° = \alpha + 2\cdot\beta + n\cdot\gamma = 360°/j + 720°/m + n\cdot180° + n\cdot 360°/m$
+$(n+1)\cdot 180°~=$&nbsp; $\alpha + 2\cdot\beta + n\cdot \gamma~=$&nbsp; $360°/j + 720°/m + n\cdot180° + n\cdot 360°/m$
 
-`2/j + (4+2n)/m = 1`
+$2/j + (4+2n)/m~=~1$
 
-`jm = 2m + j(4+2n)`
+$j\cdot m~=~2\cdot m + j\cdot (4+2n)$
 
-Now we have a short equation for `n, m, j`. We can transform this equation in two ways:
+Now we have a short equation for&nbsp; $n,~m,~j$.&nbsp; We can transform this equation in two ways:
 
-`2m = j(m-4-2n)`&nbsp;&nbsp;&nbsp;&nbsp;and&nbsp;&nbsp;&nbsp;&nbsp;`m(j-2) = j(4+2n)`
+$2\cdot m~=~j\cdot (m-4-2n)$&nbsp;&nbsp;&nbsp;&nbsp;and&nbsp;&nbsp;&nbsp;&nbsp;`m(j-2) = j(4+2n)`
 
 `2m(4+2n) = j(4+2n)(m-4-2n) =  m(j-2)(m-4-2n)`
 
