@@ -5,7 +5,7 @@ Number of closed chains of identical regular polygons
 
 We want to assemble identical regular polygons in order to build closed chains of high symmetry.
 
-$m~$ is the number of vertices - meaning that we assemble `m-gons` in a "circular" way.
+$m~$ is the number of vertices - meaning that we assemble $~m$-gons in a "circular" way.
 
 A possible start is shown in figure 1.
 
@@ -48,9 +48,9 @@ We introduced the number of neighbouring vertices of each polygon lying in the i
 
 Now we have a parameter $n$ establishing a system of chains. 
 
-- `n = 0`&nbsp;&nbsp;&nbsp;&nbsp;see three examples in figures 1, 2
-- `n = 1`&nbsp;&nbsp;&nbsp;&nbsp;see an example in figure 3 left
-- `n = 2`&nbsp;&nbsp;&nbsp;&nbsp;see an example in figure 3 right
+- $~n = 0$&nbsp;&nbsp;&nbsp;&nbsp;see three examples in figures 1, 2
+- $~n = 1$&nbsp;&nbsp;&nbsp;&nbsp;see an example in figure 3 left
+- $~n = 2$&nbsp;&nbsp;&nbsp;&nbsp;see an example in figure 3 right
 
 If you (the reader) doubt if this is leading anywhere we present the closed chain in figure 4 for further motivation. I want to remark that with this picture we enter a domain of highly aesthetic geometry.
 
@@ -60,21 +60,21 @@ Figure 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`n = 3   m = j = 12`
 
 ### Counting the closed chains
 
-Our aim is to assess for each `n` the number `a(n)` of closed chains. As yet `a(n)` could be `0` or `infinite`.
+Our aim is to assess for each&nbsp; $n~$ the number&nbsp; $a(n)$&nbsp; of closed chains. As yet&nbsp; $a(n)$&nbsp; could be&nbsp; $0~$ or&nbsp; $\infty~$.
 
-- `n = 0` yields an inner regular polygon.
-- `n = 1` yields an interior proper star with identical edges and angles.
-- `n > 1` yield star-like interiors with identical edges.
+- $~n = 0$&nbsp;&nbsp;yields an inner regular polygon.
+- $~n = 1$&nbsp;&nbsp;yields an interior proper star with identical edges and angles.
+- $~n \gt 1$&nbsp;&nbsp;yield star-like interiors with identical edges.
 
 Now to exact geometry. Here are the parameters involved:
 
-`n`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number of "free" inner neighbouring vertices of each polygon. Neighbouring points of the inner star lie `n` vertices apart.
+$n$&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number of "free" inner neighbouring vertices of each polygon. Neighbouring points of the inner star lie&nbsp; $n~$ vertices apart.
 
-`a(n)`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number of closed circular chains of identical regular polygons.
+$a(n)$&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number of closed circular chains of identical regular polygons.
 
-`m`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number of vertices in each polygon.
+$m$&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number of vertices in each polygon.
 
-`j`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number of polygons in the chain.
+$j$&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number of polygons in the chain.
 
 Figure 5 shows the angles involved in our problem.
 
@@ -84,7 +84,7 @@ Figure 5
 
 We want to examine the case of closed chains. From figure 5 we get:
 
-`alpha = 360°/j`
+$\alpha = 360°/j$
 
 `beta = 360°/m` &nbsp;&nbsp;(equals the central angle of the polygons)
 
