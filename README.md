@@ -44,7 +44,7 @@ Figure 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`m = 7`&nbsp;&nbsp;and&nbsp;&nbsp;`m = 10`
 - Can we proceed to more neighbouring vertices lying in the interior?
 - How far can we proceed?
   
-We introduced the number of neighbouring vertices of each polygon lying in the interior of the chain (in figures 1, 2, this number is&nbsp; $2~$;&nbsp; in figure 3 this number is&nbsp; $3~$ resp.&nbsp; $4~$).&nbsp; If we ignore the vertices where two polygons meet we reduce this number by&nbsp; $2~$.&nbsp; The reduced number will be denoted by&nbsp; $n~$.&nbsp; It is the number of "free" inner neighbouring vertices of each polygon. For another definition of $n$ we describe the interior of the chain as "star" with $n$ "points" (identical to the number of polygons); then neighbouring points lie $n$ vertices apart.
+We introduced the number of neighbouring vertices of each polygon lying in the interior of the chain (in figures 1, 2, this number is&nbsp; $2~$; in figure 3 this number is&nbsp; $3~$ resp.&nbsp; $4~$).&nbsp; If we ignore the vertices where two polygons meet we reduce this number by&nbsp; $2~$.&nbsp; The reduced number will be denoted by&nbsp; $n~$.&nbsp; It is the number of "free" inner neighbouring vertices of each polygon. For another definition of&nbsp; $n~$ we describe the interior of the chain as "star" with&nbsp; $n~$ "points" (identical to the number of polygons); then neighbouring points lie&nbsp; $n~$ vertices apart.
 
 Now we have a parameter $n$ establishing a system of chains. 
 
@@ -86,13 +86,13 @@ We want to examine the case of closed chains. From figure 5 we get:
 
 $\alpha = 360°/j$
 
-`beta = 360°/m` &nbsp;&nbsp;(equals the central angle of the polygons)
+$\beta = 360°/m$ &nbsp;&nbsp;(equals the central angle of the polygons)
 
-`gamma = 180° + 360°/m`
+$\gamma = 180° + 360°/m$
 
-The sum of angles in the `(n+3)-gon` in figure 5 is `(n+1) 180°`.
+The sum of angles in the&nbsp; $(n+3)$-gon&nbsp; in figure 5 is&nbsp; $(n+1) 180°$.
 
-`(n+1) 180° = alpha + 2 beta + n gamma = 360°/j + 720°/m + n 180° + n 360/m`
+$(n+1) 180° = \alpha + 2\cdot\beta + n\cdot\gamma = 360°/j + 720°/m + n\cdot180° + n\cdot 360°/m$
 
 `2/j + (4+2n)/m = 1`
 
