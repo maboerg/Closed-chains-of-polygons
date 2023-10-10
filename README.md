@@ -100,7 +100,7 @@ $j\cdot m~=~2\cdot m + j\cdot (4+2n)$
 
 Now we have a short equation for&nbsp; $n,~m,~j$.&nbsp; We can transform this equation in two ways:
 
-$2\cdot m~=~j\cdot (m-4-2n)$&nbsp;&nbsp;&nbsp;&nbsp;and&nbsp;&nbsp;&nbsp;&nbsp;`m(j-2) = j(4+2n)`
+$2\cdot m~=$&nbsp; $j\cdot (m-4-2n)$ &nbsp;&nbsp;&nbsp;and&nbsp;&nbsp;&nbsp; $m\cdot (j-2)~=~j\cdot (4+2n)$
 
 `2m(4+2n) = j(4+2n)(m-4-2n) =  m(j-2)(m-4-2n)`
 
