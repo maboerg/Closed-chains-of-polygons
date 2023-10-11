@@ -106,14 +106,14 @@ $2\cdot m\cdot (4+2n)$&nbsp; $=$&nbsp; $j\cdot (4+2n)\cdot (m-4-2n)$&nbsp; $=$&n
 
 $\mathbf{(1)}$ &nbsp; $\mathbf{8 + 4n~=~(j-2)(m-4-2n)}$
 
-With `n` given we have `j - 2` and `m - 4 - 2n` as divisors of `8 + 4n`. The number of divisors of `k` is denoted by `d(k)`.
+With&nbsp; $n~$ given we have&nbsp; $j-2~$ and&nbsp; $m - 4 - 2n~$ as divisors of&nbsp; $8+4n~$. The number of divisors of&nbsp; $k~$ is denoted by&nbsp; $d(k)$ .
 This is our main result:
 
 $\mathbf{(2)}$ &nbsp; $\mathbf{a(n) = d(8 + 4n)}$
 
-With `(t1, t2)` running through all pairs of divisors of `8+4n` (meaning `t1 t2 = 8 + 4n`) we get
+With&nbsp; $(t_1, t_2)$ &nbsp;running through all pairs of divisors of&nbsp; $8+4n~$ (meaning&nbsp; $t_1\cdot t_2~=~8 + 4n$&nbsp;)&nbsp; we get
 
-`m = t1 + 4 + 2n`&nbsp;&nbsp;&nbsp;&nbsp;`j = t2 + 2`
+$\mathbf{(3)}$ &nbsp; $\mathbf{m = t_1 + 4 + 2n}$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathbf{j = t_2 + 2}$
 
 The divisors `1, 2, 4, 2+n, 4+2n, 8+4n` appear for every `n`. For `n = 0` there are two doublets, leaving `1, 2, 4, 6`. For `n = 2` there is one doublet, leaving `1, 2, 4, 8, 16`.
 
