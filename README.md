@@ -102,14 +102,14 @@ Now we have a short equation for&nbsp; $n,~m,~j$.&nbsp; We can transform this eq
 
 $2\cdot m~=$&nbsp; $j\cdot (m-4-2n)$ &nbsp;&nbsp;&nbsp;and&nbsp;&nbsp;&nbsp; $m\cdot (j-2)~=~j\cdot (4+2n)$
 
-`2m(4+2n) = j(4+2n)(m-4-2n) =  m(j-2)(m-4-2n)`
+$2\cdot m\cdot (4+2n)$&nbsp; $=$&nbsp; $j\cdot (4+2n)\cdot (m-4-2n)$&nbsp; $=$&nbsp; $m\cdot (j-2)\cdot (m-4-2n)$
 
-(1)&nbsp;&nbsp;&nbsp;`8 + 4n = (j-2)(m-4-2n)`
+$\mathbf{(1)}$ &nbsp; $\mathbf{8 + 4n~=~(j-2)(m-4-2n)}$
 
 With `n` given we have `j - 2` and `m - 4 - 2n` as divisors of `8 + 4n`. The number of divisors of `k` is denoted by `d(k)`.
 This is our main result:
 
-(2)&nbsp;&nbsp;&nbsp; $\mathbf{a(n) = d(8 + 4n)}$
+$\mathbf{(2)}$ &nbsp; $\mathbf{a(n) = d(8 + 4n)}$
 
 With `(t1, t2)` running through all pairs of divisors of `8+4n` (meaning `t1 t2 = 8 + 4n`) we get
 
