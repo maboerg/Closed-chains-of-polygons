@@ -127,9 +127,9 @@ We got a complete result:
 
 - For each `n` there are several and finitely many closed chains.
 
-- For `n = 0` there are `a(0) = 4` closed chains. For `n = 2` there are `a(2) = 5` closed chains. For all other `n` there are `a(n) > 5` closed chains.
-
 - The exact number of closed chains is `a(n) = d(8 + 4n)`.
+
+- For `n = 0` there are `a(0) = 4` closed chains. For `n = 2` there are `a(2) = 5` closed chains. For all other `n` there are `a(n) > 5` closed chains.
 
 - `a(n) = 6   <--->   n = 6  or  n+2 prime`.
 
