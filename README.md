@@ -115,11 +115,11 @@ With&nbsp; $(t_1, t_2)$ &nbsp;running through all pairs of divisors of&nbsp; $8+
 
 $\mathbf{(3)}$ &nbsp; $\mathbf{m = t_1 + 4 + 2n}$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathbf{j = t_2 + 2}$
 
-The divisors `1, 2, 4, 2+n, 4+2n, 8+4n` appear for every `n`. For `n = 0` there are two doublets, leaving `1, 2, 4, 6`. For `n = 2` there is one doublet, leaving `1, 2, 4, 8, 16`.
+The divisors&nbsp; $1,~2,~4,~2+n,~4+2n,~8+4n$&nbsp; appear for every&nbsp; $n$&nbsp;.&nbsp; For&nbsp; $n = 0$&nbsp; there are two doublets, leaving&nbsp; $1,~2,~4,~6$&nbsp;.&nbsp; For&nbsp; $n = 2$&nbsp; there is one doublet, leaving&nbsp; $1,~2,~4,~8,~16$&nbsp;.
 
-`m - 4 - 2n > 0`, so `m > 5`.  With `m - 4 - 2n = 1` all odd `m > 3` appear, with `m - 4 - 2n = 2` all even `m > 4` appear, with `n` running from `0`.
+$m - 4 - 2n~\ge 1$ ,&nbsp; so&nbsp; $m \ge 5$&nbsp;.&nbsp;  With&nbsp; $m - 4 - 2n~= 1$&nbsp; all odd&nbsp; $m \ge 5$&nbsp; appear, with&nbsp; $m - 4 - 2n~=~2$&nbsp; all even&nbsp; $m \ge 6$&nbsp; appear, with&nbsp; $n$&nbsp; running from&nbsp; $0$&nbsp;.
 
-With `n` running, `8 + 4n = 4(2 + n)` has all natural `t` as divisors. With `t = j - 2` all `j > 2` will appear.
+With&nbsp; $n$&nbsp; running, `8 + 4n = 4(2 + n)` has all natural `t` as divisors. With `t = j - 2` all `j > 2` will appear.
 
 We got a complete result:
 
