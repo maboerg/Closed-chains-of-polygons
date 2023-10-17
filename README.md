@@ -119,39 +119,39 @@ The divisors&nbsp; $1,~2,~4,~2+n,~4+2n,~8+4n$&nbsp; appear for every&nbsp; $n$&n
 
 $m - 4 - 2n~\ge 1$ ,&nbsp; so&nbsp; $m \ge 5$&nbsp;.&nbsp;  With&nbsp; $m - 4 - 2n~= 1$&nbsp; all odd&nbsp; $m \ge 5$&nbsp; appear, with&nbsp; $m - 4 - 2n~=~2$&nbsp; all even&nbsp; $m \ge 6$&nbsp; appear, with&nbsp; $n$&nbsp; running from&nbsp; $0$&nbsp;.
 
-With&nbsp; $n$&nbsp; running, `8 + 4n = 4(2 + n)` has all natural `t` as divisors. With `t = j - 2` all `j > 2` will appear.
+With&nbsp; $n$&nbsp; running,&nbsp; $8 + 4n = 4(2 + n)$&nbsp; has all natural&nbsp; $t$&nbsp; as divisors. With&nbsp; $t = j - 2$&nbsp; all&nbsp; $j \ge 3$&nbsp; will appear.
 
 We got a complete result:
 
 - There are infinitely many closed chains of identical regular polygons.
 
-- For each `n` there are several and finitely many closed chains.
+- For each&nbsp; $n$&nbsp; there are several and finitely many closed chains.
 
-- The exact number of closed chains is `a(n) = d(8 + 4n)`.
+- The exact number of closed chains is&nbsp; $a(n) = d(8 + 4n)$.
 
-- For `n = 0` there are `a(0) = 4` closed chains. For `n = 2` there are `a(2) = 5` closed chains. For all other `n` there are `a(n) > 5` closed chains.
+- For&nbsp; $n = 0$&nbsp; there are&nbsp; $a(0) = 4$&nbsp; closed chains. For&nbsp; $n = 2$&nbsp; there are&nbsp; $a(2) = 5$&nbsp; closed chains. For all other&nbsp; $n$&nbsp; there are&nbsp; $a(n) \ge 6$&nbsp; closed chains.
 
-- `a(n) = 6   <--->   n = 6  or  n+2 prime`.
+- $a(n) = 6~~~~\Longleftrightarrow~~~ n = 6~~~\text{or}~~~n+2 ~~ \text{prime}$.
 
-- The number of vertices in each polygon is `m = t + 4 + 2n` where `t` runs through the divisors of `8 + 4n`. The corresponding number of `m-gons` in the chain is `j = (8+4n)/t + 2`.
+- The number of vertices in each polygon is&nbsp; $m = t + 4 + 2n$&nbsp; where&nbsp; $t$&nbsp; runs through the divisors of&nbsp; $8 + 4n$&nbsp;.&nbsp; The corresponding number of&nbsp; $m$-gons in the chain is&nbsp; $j = (8+4n)/t + 2$&nbsp;.
 
-- Changing the roles of `m` and `j` we get: The number of polygons in the chain is `j = t + 2` where `t` runs through the divisors of `8 + 4n`. The corresponding number of vertices in each of the `j` polygons is `m = (8+4n)/t + 4 + 2n`.
+- Changing the roles of&nbsp; $m$&nbsp; and&nbsp; $j$&nbsp; we get: The number of polygons in the chain is&nbsp; $j = t + 2$&nbsp; where&nbsp; $t$&nbsp; runs through the divisors of&nbsp; $8 + 4n$&nbsp;.&nbsp; The corresponding number of vertices in each of the&nbsp; $j$&nbsp; polygons is&nbsp; $m = (8+4n)/t + 4 + 2n$&nbsp;.
 
-- For every `m > 4` exists a closed chain of `m-gons`.
+- For every&nbsp; $m \ge 5$&nbsp; exists a closed chain of&nbsp; $m$-gons.
 
-- For every `j > 2` exists a closed chain with exactly `j` polygons.
+- For every&nbsp; $j \ge 3$&nbsp; exists a closed chain with exactly&nbsp; $j$&nbsp; polygons.
 
-We compare this result with the figures above:
+We compare these results with the figures above:
 
-In figure 1 we have `n = 0` and `m = 5`. From (1) we get `j = 10`. Thus the chain will eventually close, see figure 6.
+In figure 1 we have&nbsp; $n = 0$&nbsp; and&nbsp; $m = 5$&nbsp;. From (1) we get&nbsp; $j = 10$&nbsp;.&nbsp; Thus the chain will eventually close, see figure 6.
 
-In figure 2 we have `n = 0`. We know `a(0) = 4`. There must be two other chains with a regular polygon as interior. One of these is the completion of figure 1. See figure 6 for all four chains.
+In figure 2 we have&nbsp; $n = 0$&nbsp;.&nbsp; We know&nbsp; $a(0) = 4$&nbsp;.&nbsp; There must be two other chains with a regular polygon as interior. One of these is the completion of figure 1. See figure 6 for all four chains.
 
-In figure 3 left we have `n = 1` and `m = 7`. From (1) we get `j = 14`. Thus the chain will eventually close, see figure 7.
+In figure 3 left we have&nbsp; $n = 1$&nbsp; and&nbsp; $m = 7$&nbsp;.&nbsp; From (1) we get&nbsp; $j = 14$&nbsp;.&nbsp; Thus the chain will eventually close, see figure 7.
 
-In figure 3 right we have `n = 2` and `m = 10`. From (1) we get `j = 10`. Thus the chain will eventually close, see figure 8.
+In figure 3 right we have&nbsp; $n = 2$&nbsp; and&nbsp; $m = 10$&nbsp;.&nbsp; From (1) we get&nbsp; $j = 10$&nbsp;.&nbsp; Thus the chain will eventually close, see figure 8.
 
-In figure 4 we have `n = 3` and `m = j = 12`. This matches with (1), see figure 9.
+In figure 4 we have&nbsp; $n = 3$&nbsp; and&nbsp; $m = j = 12$&nbsp;.&nbsp; This matches with (1), see figure 9.
 
 ### Programs
 
@@ -169,7 +169,7 @@ Output
 
 ![figure03](https://github.com/maboerg/Closed-chains-of-polygons/assets/88709288/0e428ba5-7986-40cd-b8fa-e3c4cd8be78a)
 
-Here is a Mathematica list of a(n):
+Here is a Mathematica list of&nbsp; $a(n)$&nbsp;:
 
 ```
 Table[{n, Length[Divisors[8 + 4 n]]}, {n, 0, 107}] // TableForm
@@ -211,7 +211,7 @@ Figure 9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`n = 3`
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 &nbsp;
 
-The pictures appeal by their symmetry and beauty. We stopped at `n = 3`. With increasing `n` the polygons appear more and more like circles, though some more nice examples can be produced - the reader should try and display them by a suitable program.
+The pictures appeal by their symmetry and beauty. We stopped at&nbsp; $n = 3$&nbsp;.&nbsp; With increasing&nbsp; $n$&nbsp; the polygons appear more and more like circles, though some more nice examples can be produced&nbsp; -&nbsp; the reader should try and display them by a suitable program.
 
 The aesthetic value of the chains may be attributed to a variety of notions in art and nature. Some of the notions coming to mind - with some fantasy - are shown in figure 10.
 
@@ -227,11 +227,11 @@ Figure 11
 
 ### OEIS
 
-The sequence `d(.)` rendering the number of divisors of natural numbers is available in the database OEIS as A000005.
+The sequence&nbsp; $d(.)$&nbsp; rendering the number of divisors of natural numbers is available in the database OEIS as A000005.
 
-We got `a(n) = d(8 + 4n)` in (2). Remember that `a(n)` starts with `n=0`. See the sequence A000005 with a(n) highlighted:
+We got&nbsp; $a(n) = d(8 + 4n)$&nbsp; in (2). Remember that&nbsp; $a(n)$&nbsp; starts with&nbsp; $n=0$&nbsp;.&nbsp; See the sequence A000005 with&nbsp; $a(n)$&nbsp; highlighted:
 
-1, 2, 2, 3, 2, 4, 2, $\textbf{4}$, 3, 4, 2, $\textbf{6}$, 2, 4, 4, $\textbf{5}$, 2, 6, 2, `6`, 4, 4, 2, `8`, 3, 4, 4, `6`, 2, 8, 2, `6`, 4, 4, 4, `9`, 2, 4, 4, `8`, 2, 8, 2, `6`, 6, 4, 2, `10`, 3, 6, 4, `6`, 2, 8, 4, `8`, 4, 4, 2, `12`, 2, 4, 6, `7`, 4, 8, 2, `6`, 4, 8, 2, `12`, 2, 4, 6, `6`, 4, 8, 2, `10`, 5, 4, 2, `12`, 4, 4, 4, `8`, 2, 12, 4, `6`, 4, 4, 4, `12`, 2, 6, 6, `9`, 2, 8, 2, `8`
+1, 2, 2, 3, 2, 4, 2, $\textbf{4}$, 3, 4, 2, $\textbf{6}$, 2, 4, 4, $\textbf{5}$, 2, 6, 2, $\textbf{6}$, 4, 4, 2, $\textbf{8}$, 3, 4, 4, $\textbf{6}$, 2, 8, 2, $\textbf{6}$, 4, 4, 4, $\textbf{9}$, 2, 4, 4, $\textbf{8}$, 2, 8, 2, $\textbf{6}$, 6, 4, 2, $\textbf{10}$, 3, 6, 4, $\textbf{6}$, 2, 8, 4, $\textbf{8}$, 4, 4, 2, $\textbf{12}$, 2, 4, 6, $\textbf{7}$, 4, 8, 2, $\textbf{6}$, 4, 8, 2, $\textbf{12}$, 2, 4, 6, $\textbf{6}$, 4, 8, 2, $\textbf{10}$, 5, 4, 2, $\textbf{12}$, 4, 4, 4, $\textbf{8}$, 2, 12, 4, $\textbf{6}$, 4, 4, 4, $\textbf{12}$, 2, 6, 6, $\textbf{9}$, 2, 8, 2, $\textbf{8}$
 
 
 
