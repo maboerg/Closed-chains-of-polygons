@@ -94,7 +94,7 @@ The sum of angles in the&nbsp; $(n+3)$-gon&nbsp; in figure 5 is&nbsp; $(n+1) 180
 
 $(n+1)\cdot 180°~=$&nbsp; $\alpha + 2\cdot\beta + n\cdot \gamma~=$&nbsp; $360°/j + 720°/m + n\cdot180° + n\cdot 360°/m$
 
-$2/j + (4+2n)/m~=~1$
+$1~=~2/j + (4+2n)/m$
 
 $j\cdot m~=~2\cdot m + j\cdot (4+2n)$
 
