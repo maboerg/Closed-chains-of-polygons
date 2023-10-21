@@ -111,7 +111,7 @@ This is our main result:
 
 $\mathbf{(2)}$ &nbsp; $\mathbf{a(n) = d(8 + 4n)}$
 
-With&nbsp; $(t_1, t_2)$ &nbsp;running through all pairs of divisors of&nbsp; $8+4n~$ (meaning&nbsp; $t_1\cdot t_2~=~8 + 4n$&nbsp;)&nbsp; we get
+With&nbsp; $(t_1, t_2)$ &nbsp;running through all pairs of divisors of&nbsp; $8+4n~$ (meaning&nbsp; $t_1\cdot t_2~=~8 + 4n$&nbsp;)&nbsp; we get from (1)
 
 $\mathbf{(3)}$ &nbsp; $\mathbf{m = t_1 + 4 + 2n}$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathbf{j = t_2 + 2}$
 
