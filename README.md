@@ -41,10 +41,10 @@ Figure 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`m = 7`&nbsp;&nbsp;and&nbsp;&nbsp;`m = 10`
 
 - Is it possible to build closed chains by joining identical regular polygons as suggested by figure 3?
 - Are there finitely many of them?
-- Can we proceed to more neighbouring vertices lying in the interior?
+- Can we proceed to more neighboring vertices lying in the interior?
 - How far can we proceed?
   
-We introduced the number of neighbouring vertices of each polygon lying in the interior of the chain (in figures 1, 2, this number is&nbsp; $2~$; in figure 3 this number is&nbsp; $3~$ resp.&nbsp; $4~$).&nbsp; If we ignore the vertices where two polygons meet we reduce this number by&nbsp; $2~$.&nbsp; The reduced number will be denoted by&nbsp; $n~$.&nbsp; It is the number of "free" inner neighbouring vertices of each polygon. For another definition of&nbsp; $n~$ we describe the interior of the chain as "star" with&nbsp; $n~$ "points" (identical to the number of polygons); then neighbouring points lie&nbsp; $n~$ vertices apart.
+We introduced the number of neighboring vertices of each polygon lying in the interior of the chain (in figures 1, 2, this number is&nbsp; $2~$; in figure 3 this number is&nbsp; $3~$ resp.&nbsp; $4~$).&nbsp; By ignoring the vertices where two polygons meet this number is reduced by&nbsp; $2~$.&nbsp; The reduced number will be denoted by&nbsp; $n~$.&nbsp; It is the number of "free" inner neighboring vertices of each polygon. For another definition of&nbsp; $n~$ we describe the interior of the chain as "star" with&nbsp; $n~$ "points" (identical to the number of polygons); then neighboring points lie&nbsp; $n~$ vertices apart.
 
 Now we have a parameter $n$ establishing a system of chains. 
 
@@ -68,7 +68,7 @@ Our aim is to assess for each&nbsp; $n~$ the number&nbsp; $a(n)$&nbsp; of closed
 
 Now to exact geometry. Here are the parameters involved:
 
-$n$&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number of "free" inner neighbouring vertices of each polygon. Neighbouring points of the inner star lie&nbsp; $n~$ vertices apart.
+$n$&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number of "free" inner neighboring vertices of each polygon. Neighboring points of the inner star lie&nbsp; $n~$ vertices apart.
 
 $a(n)$&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number of closed circular chains of identical regular polygons.
 
