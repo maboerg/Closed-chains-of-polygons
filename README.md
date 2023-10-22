@@ -115,9 +115,9 @@ With&nbsp; $(t_1, t_2)$ &nbsp;running through all pairs of divisors of&nbsp; $8+
 
 $\mathbf{(3)}$ &nbsp; $\mathbf{m = t_1 + 4 + 2n}$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $\mathbf{j = t_2 + 2}$
 
-The divisors&nbsp; $1,~2,~4,~2+n,~4+2n,~8+4n$&nbsp; appear for every&nbsp; $n$&nbsp;.&nbsp; For&nbsp; $n = 0$&nbsp; there are two doublets, leaving&nbsp; $1,~2,~4,~6$&nbsp;.&nbsp; For&nbsp; $n = 2$&nbsp; there is one doublet, leaving&nbsp; $1,~2,~4,~8,~16$&nbsp;.
+The divisors&nbsp; $1,~2,~4,~2+n,~4+2n,~8+4n$&nbsp; appear for every&nbsp; $n$&nbsp;.&nbsp; For&nbsp; $n = 0$&nbsp; there are two doublets, leaving&nbsp; $1,~2,~4,~8$&nbsp;.&nbsp; For&nbsp; $n = 2$&nbsp; there is one doublet, leaving&nbsp; $1,~2,~4,~8,~16$&nbsp;.
 
-$m - 4 - 2n~\ge 1$ ,&nbsp; so&nbsp; $m \ge 5$&nbsp;.&nbsp;  With&nbsp; $m - 4 - 2n~= 1$&nbsp; all odd&nbsp; $m \ge 5$&nbsp; appear, with&nbsp; $m - 4 - 2n~=~2$&nbsp; all even&nbsp; $m \ge 6$&nbsp; appear, with&nbsp; $n$&nbsp; running from&nbsp; $0$&nbsp;.
+$m - 4 - 2n~\ge 1$ ,&nbsp; so&nbsp; $m \ge 5$&nbsp;.&nbsp;  For&nbsp; $m - 4 - 2n~= 1$&nbsp; all odd&nbsp; $m \ge 5$&nbsp; appear, for&nbsp; $m - 4 - 2n~=~2$&nbsp; all even&nbsp; $m \ge 6$&nbsp; appear, with&nbsp; $n$&nbsp; running from&nbsp; $0$&nbsp;.
 
 With&nbsp; $n$&nbsp; running,&nbsp; $8 + 4n = 4(2 + n)$&nbsp; has all natural&nbsp; $t$&nbsp; as divisors. With&nbsp; $t = j - 2$&nbsp; all&nbsp; $j \ge 3$&nbsp; will appear.
 
