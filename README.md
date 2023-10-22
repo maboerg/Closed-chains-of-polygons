@@ -117,7 +117,7 @@ $\mathbf{(3)}$ &nbsp; $\mathbf{m = t_1 + 4 + 2n}$ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 The divisors&nbsp; $1,~2,~4,~2+n,~4+2n,~8+4n$&nbsp; appear for every&nbsp; $n$&nbsp;.&nbsp; For&nbsp; $n = 0$&nbsp; there are two doublets, leaving&nbsp; $1,~2,~4,~8$&nbsp;.&nbsp; For&nbsp; $n = 2$&nbsp; there is one doublet, leaving&nbsp; $1,~2,~4,~8,~16$&nbsp;.
 
-$m - 4 - 2n~\ge 1$ ,&nbsp; so&nbsp; $m \ge 5$&nbsp;.&nbsp;  For&nbsp; $m - 4 - 2n~= 1$&nbsp; all odd&nbsp; $m \ge 5$&nbsp; appear, for&nbsp; $m - 4 - 2n~=~2$&nbsp; all even&nbsp; $m \ge 6$&nbsp; appear, with&nbsp; $n$&nbsp; running from&nbsp; $0$&nbsp;.
+$m - 4 - 2n~\ge 1$ ,&nbsp; so&nbsp; $m \ge 5$&nbsp;.&nbsp;  With divisor&nbsp; $m - 4 - 2n~= 1$&nbsp; all odd&nbsp; $m \ge 5$&nbsp; appear, for&nbsp; $m - 4 - 2n~=~2$&nbsp; all even&nbsp; $m \ge 6$&nbsp; appear, with&nbsp; $n$&nbsp; running from&nbsp; $0$&nbsp;.
 
 With&nbsp; $n$&nbsp; running,&nbsp; $8 + 4n = 4(2 + n)$&nbsp; has all natural&nbsp; $t$&nbsp; as divisors. With&nbsp; $t = j - 2$&nbsp; all&nbsp; $j \ge 3$&nbsp; will appear.
 
@@ -131,7 +131,7 @@ We got a complete result:
 
 - For&nbsp; $n = 0$&nbsp; there are&nbsp; $a(0) = 4$&nbsp; closed chains. For&nbsp; $n = 2$&nbsp; there are&nbsp; $a(2) = 5$&nbsp; closed chains. For all other&nbsp; $n$&nbsp; there are&nbsp; $a(n) \ge 6$&nbsp; closed chains.
 
-- $a(n) = 6~~~~\Longleftrightarrow~~~ n = 6~~~\text{or}~~~n+2 ~~ \text{prime}$.
+- $a(n) = 6~~~~\Longleftrightarrow~~~ n = 6~~~\text{or}~~~n+2 ~~ \text{odd and prime}$.
 
 - The number of vertices in each polygon is&nbsp; $m = t + 4 + 2n$&nbsp; where&nbsp; $t$&nbsp; runs through the divisors of&nbsp; $8 + 4n$&nbsp;.&nbsp; The corresponding number of&nbsp; $m$-gons in the chain is&nbsp; $j = (8+4n)/t + 2$&nbsp;.
 
