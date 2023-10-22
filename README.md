@@ -227,7 +227,7 @@ Figure 11
 
 ### OEIS
 
-The sequence&nbsp; $d(.)$&nbsp; rendering the number of divisors of natural numbers is available in the database OEIS as A000005.
+The sequence&nbsp; $d(.)$&nbsp; rendering the number of divisors of natural numbers is available in the database OEIS as [A000005](http://oeis.org/A000005)         .
 
 We got&nbsp; $a(n) = d(8 + 4n)$&nbsp; in (2). Remember that&nbsp; $a(n)$&nbsp; starts with&nbsp; $n=0$&nbsp;.&nbsp; See the sequence A000005 with&nbsp; $a(n)$&nbsp; highlighted:
 
