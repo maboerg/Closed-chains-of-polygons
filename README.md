@@ -44,7 +44,7 @@ Figure 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`m = 7`&nbsp;&nbsp;and&nbsp;&nbsp;`m = 10`
 - Can we proceed to more neighboring vertices lying in the interior?
 - How far can we proceed?
   
-We introduced the number of neighboring vertices of each polygon lying in the interior of the chain (in figures 1, 2, this number is&nbsp; $2~$; in figure 3 this number is&nbsp; $3~$ resp.&nbsp; $4~$).&nbsp; By ignoring the vertices where two polygons meet this number is reduced by&nbsp; $2~$.&nbsp; The reduced number will be denoted by&nbsp; $n~$.&nbsp; It is the number of "free" inner neighboring vertices of each polygon. For another definition of&nbsp; $n~$ we describe the interior of the chain as "star" with&nbsp; $n~$ "points" (identical to the number of polygons); then neighboring points lie&nbsp; $n~$ vertices apart.
+We introduced the number $n~$ of neighboring vertices of each polygon lying in the interior of the chain (in figures 1, 2, this number is&nbsp; $0~$; in figure 3 this number is&nbsp; $1~$ resp.&nbsp; $4~$).&nbsp;. It is the number of "free" inner neighboring vertices of each polygon. For another definition of&nbsp; $n~$ we describe the interior of the chain as "star" with&nbsp; $n~$ "points" (identical to the number of polygons); then neighboring points lie&nbsp; $n~$ vertices apart.
 
 Now we have a parameter $n$ establishing a system of chains. 
 
@@ -145,7 +145,7 @@ We compare these results with the figures above:
 
 In figure 1 we have&nbsp; $n = 0$&nbsp; and&nbsp; $m = 5$&nbsp;. From (1) we get&nbsp; $j = 10$&nbsp;.&nbsp; Thus the chain will eventually close, see figure 6.
 
-In figure 2 we have&nbsp; $n = 0$&nbsp;.&nbsp; We know&nbsp; $a(0) = 4$&nbsp;.&nbsp; There must be two other chains with a regular polygon as interior. One of these is the completion of figure 1. See figure 6 for all four chains.
+In figure 2 we have&nbsp; $n = 0$&nbsp;.&nbsp; We know&nbsp; $a(0) = 4$&nbsp;.&nbsp; There must be two other chains with a regular polygon as the interior. One of these is the completion of figure 1. See figure 6 for all four chains.
 
 In figure 3 left we have&nbsp; $n = 1$&nbsp; and&nbsp; $m = 7$&nbsp;.&nbsp; From (1) we get&nbsp; $j = 14$&nbsp;.&nbsp; Thus the chain will eventually close, see figure 7.
 
@@ -211,7 +211,7 @@ Figure 9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`n = 3`
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 &nbsp;
 
-The pictures appeal by their symmetry and beauty. We stopped at&nbsp; $n = 3$&nbsp;.&nbsp; With increasing&nbsp; $n$&nbsp; the polygons appear more and more like circles, though some more nice examples can be produced&nbsp; -&nbsp; the reader should try and display them by a suitable program.
+The pictures appeal by their symmetry and beauty. We stopped at&nbsp; $n = 3$&nbsp;.&nbsp; With increasing&nbsp; $n$&nbsp; the polygons appear more and more like circles, though some more nice examples can be produced&nbsp; -&nbsp; the reader should try and display them using a suitable program.
 
 The aesthetic value of the chains may be attributed to a variety of notions in art and nature. Some of the notions coming to mind - with some fantasy - are shown in figure 10.
 
