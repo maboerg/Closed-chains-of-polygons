@@ -37,7 +37,7 @@ Before we present any theory let's have a look at other ways of joining the poly
 
 ![figure02b](https://github.com/maboerg/Closed-chains-of-polygons/assets/88709288/57606683-d43d-4c21-98e1-f14bcf2cb531)
 
-Figure 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`m = 7`&nbsp;&nbsp;and&nbsp;&nbsp;`m = 10`
+Figure 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`m = 7`&nbsp;&nbsp;and&nbsp;&nbsp;`m = 10`&nbsp;&nbsp; Will these chains eventually close to perfect and symmetrical chains?
 
 - Is it possible to build closed chains by joining identical regular polygons as suggested by figure 3?
 - Are there finitely many of them?
