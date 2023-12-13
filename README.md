@@ -227,11 +227,12 @@ Figure 11
 
 ### OEIS
 
-The sequence&nbsp; $d(.)$&nbsp; rendering the number of divisors of natural numbers is available in the database OEIS as [A000005](http://oeis.org/A000005)         .
+The sequence&nbsp; $a(n) = (4, 6, 5, 6, 8, 6, 6, 9, 8, 6, 10, 6, 8, 12, 7, 6, 12, 6, 10, 12, 8, 6, 12, 9, 8, 12, 10, 6, 16, 6,$
+$8, 12, 8, 12, 15, 6, 8, 12, 12, 6, 16, 6, 10, 18, 8, 6, 14, 9, 12, 12, 10, 6, 16, 12, 12, 12, 8, 6, 20, 6, 8, 18, 9, ...)$&nbsp; was accepted by the database OEIS as [A366872](http://oeis.org/A366872) on Dec 12, 2023.
 
-We got&nbsp; $a(n) = d(8 + 4n)$&nbsp; in (2). Remember that&nbsp; $a(n)$&nbsp; starts with&nbsp; $n=0$&nbsp;.&nbsp; See the sequence A000005 with&nbsp; $a(n)$&nbsp; highlighted:
+We got&nbsp; $a(n) = d(8 + 4n)$&nbsp; in (2). The sequence&nbsp; $d(.)$&nbsp; is [A000005](http://oeis.org/A000005) in OEIS. See the sequence A000005 with&nbsp; $a(n)$&nbsp; highlighted (remember that&nbsp; $a(n)$&nbsp; starts with&nbsp; $n=0$&nbsp;)&nbsp;:
 
-1, 2, 2, 3, 2, 4, 2, $\textbf{4}$, 3, 4, 2, $\textbf{6}$, 2, 4, 4, $\textbf{5}$, 2, 6, 2, $\textbf{6}$, 4, 4, 2, $\textbf{8}$, 3, 4, 4, $\textbf{6}$, 2, 8, 2, $\textbf{6}$, 4, 4, 4, $\textbf{9}$, 2, 4, 4, $\textbf{8}$, 2, 8, 2, $\textbf{6}$, 6, 4, 2, $\textbf{10}$, 3, 6, 4, $\textbf{6}$, 2, 8, 4, $\textbf{8}$, 4, 4, 2, $\textbf{12}$, 2, 4, 6, $\textbf{7}$, 4, 8, 2, $\textbf{6}$, 4, 8, 2, $\textbf{12}$, 2, 4, 6, $\textbf{6}$, 4, 8, 2, $\textbf{10}$, 5, 4, 2, $\textbf{12}$, 4, 4, 4, $\textbf{8}$, 2, 12, 4, $\textbf{6}$, 4, 4, 4, $\textbf{12}$, 2, 6, 6, $\textbf{9}$, 2, 8, 2, $\textbf{8}$
+1, 2, 2, 3, 2, 4, 2, $\textbf{4}$, 3, 4, 2, $\textbf{6}$, 2, 4, 4, $\textbf{5}$, 2, 6, 2, $\textbf{6}$, 4, 4, 2, $\textbf{8}$, 3, 4, 4, $\textbf{6}$, 2, 8, 2, $\textbf{6}$, 4, 4, 4, $\textbf{9}$, 2, 4, 4, $\textbf{8}$, 2, 8, 2, $\textbf{6}$, 6, 4, 2, $\textbf{10}$, 3, 6, 4, $\textbf{6}$, 2, 8, 4, $\textbf{8}$, 4, 4, 2, $\textbf{12}$, 2, 4, 6, $\textbf{7}$, 4, 8, 2, $\textbf{6}$, 4, 8, 2, $\textbf{12}$, 2, 4, 6, $\textbf{6}$, 4, 8, 2, $\textbf{10}$, 5, 4, 2, $\textbf{12}$, 4, 4, 4, $\textbf{8}$, 2, 12, 4, $\textbf{6}$, 4, 4, 4, $\textbf{12}$, 2, 6, 6, $\textbf{9}$, 2, 8, 2, $\textbf{8}, ...$
 
 
 
