@@ -160,6 +160,7 @@ In figure 3 right we have&nbsp; $n = 2$&nbsp; and&nbsp; $m = 10$&nbsp;.&nbsp; Fr
 In figure 4 we have&nbsp; $n = 3$&nbsp; and&nbsp; $m = j = 12$&nbsp;.&nbsp; This matches with (1), see figure 9.
 
 &nbsp;
+
 **Start and end of the list of&nbsp; $m$&nbsp; and the list of&nbsp; $j$**
 
 With the exception&nbsp; $n=0$&nbsp; and&nbsp; $n=2$&nbsp;, these lists contain at least&nbsp; $6$&nbsp; elements. We want to describe the first and last three elements.
@@ -170,18 +171,18 @@ For each&nbsp; $n$&nbsp;, the first and the second&nbsp; $m$&nbsp; in ascending 
 
 $n=0$ mod $3~~~\Rightarrow~~~$&nbsp; third&nbsp; $m~=~6h+2$&nbsp; for some&nbsp; $h$
 
-$n=1$ mod $3~~~\Rightarrow~~~$&nbsp; third&nbsp; $m~=~6h+3$&nbsp; for some&nbsp; $h$
+$n=1$ mod $3~~~\Rightarrow~~~$&nbsp; third&nbsp; $m~=~6h+3$
 
-$n=2$ mod $3~~~\Rightarrow~~~$&nbsp; third&nbsp; $m~=~6h$&nbsp; for some&nbsp; $h$
+$n=2$ mod $3~~~\Rightarrow~~~$&nbsp; third&nbsp; $m~=~6h$&
 
 This shows that the list of third&nbsp; $m$&nbsp; is given by OEIS [A047244](http://oeis.org/A047244) (shifted).
 
-The last and the second to last&nbsp; $m$&nbsp; are&nbsp; $4n+8$&nbsp; and&nbsp; $2n+4$&nbsp;. The third last&nbsp; $m$&nbsp; depends on&nbsp; $3$&nbsp; being a divisor of&nbsp; $8+4n$&nbsp;, giving&nbsp; $n=1$&nbsp;mod&nbsp; $3$&nbsp;. The third last&nbsp; $m = (8+4n)/t+4+2n$ (see above) with&nbsp; $t=3$&nbsp; if&nbsp; $n=1$&nbsp;mod&nbsp;$3$&nbsp; and&nbsp; $t=4$&nbsp; else.
+The last and the second to last&nbsp; $m$&nbsp; are&nbsp; $4n+8$&nbsp; and&nbsp; $2n+4$&nbsp;.&nbsp; $m$&nbsp; depends on&nbsp; $3$&nbsp; being a divisor of&nbsp; $8+4n$&nbsp;, giving&nbsp; $n=1$&nbsp;mod&nbsp; $3$&nbsp;. The third last&nbsp; $m$&nbsp; is&nbsp; $(8+4n)/t+4+2n$ (see above) with&nbsp; $t=3$&nbsp; if&nbsp; $n=1$&nbsp;mod&nbsp; $3$&nbsp; and&nbsp; $t=4$&nbsp; else.
 
-- Third last m = (2+n)*(10/3) if n=1 mod 3 and m = (2+n)*3 else.
+- Third last&nbsp; $m = (2+n)\cdot (10/3)$ if &nbsp; $n=1$&nbsp; mod &nbsp; $3$&nbsp; andnbsp; $m = (2+n)\cdot 3$&nbsp; else.
 
 For each n, the first and the second j in descending order are 4n+10 and 2n+6. The third j depends on 3 being a divisor of 8+4n, giving n=1 mod 3.
-Spiegelpunkt Third j = (2/3)*(7+2n) if n=1 mod 3 and  j = 4+n else.
+Spiegelpunkt Third j = (2/3)\cdot (7+2n) if n=1 mod 3 and  j = 4+n else.
 The last and the second to last j are 3 and 4. The third last j depends on 3 being a divisor of 8+4n, giving n=1 mod 3.
 Spiegelpunkt Third last j = 5 if n=1 mod 3 and j=6 else.
 
