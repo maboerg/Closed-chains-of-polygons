@@ -138,8 +138,10 @@ We got a complete result:
 - Changing the roles of&nbsp; $m$&nbsp; and&nbsp; $j$&nbsp; we get: The number of polygons in the chain is&nbsp; $j = t + 2$&nbsp; where&nbsp; $t$&nbsp; runs through the divisors of&nbsp; $8 + 4n$&nbsp;.&nbsp; The corresponding number of vertices in each of the&nbsp; $j$&nbsp; polygons is&nbsp; $m = (8+4n)/t + 4 + 2n$&nbsp;.
 
 - $m$&nbsp; and&nbsp; $j$&nbsp; are interdepending:
-$m = 4 + 2n + (8+4n)/(j-2)$
-$j = 2 + (8+4n)/(m-4-2n)$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$m = 4 + 2n + (8+4n)/(j-2)$
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$j = 2 + (8+4n)/(m-4-2n)$
 
 - For every&nbsp; $m \ge 5$&nbsp; exists a closed chain of&nbsp; $m$-gons.
 
