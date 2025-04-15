@@ -179,13 +179,13 @@ This shows that the list of third&nbsp; $m$&nbsp; is given by OEIS [A047244](htt
 
 The last and the second to last&nbsp; $m$&nbsp; are&nbsp; $12+6n$&nbsp; and&nbsp; $8+4n$&nbsp;.&nbsp; $m$&nbsp; depends on&nbsp; $3$&nbsp; being a divisor of&nbsp; $8+4n$&nbsp;, giving&nbsp; $n=1$ mod $3$&nbsp;. The third last&nbsp; $m$&nbsp; is&nbsp; $(8+4n)/t+4+2n$ (see above) with&nbsp; $t=3$&nbsp; if&nbsp; $n=1$ mod $3$&nbsp; and&nbsp; $t=4$&nbsp; else.
 
-- Third last&nbsp; $m = (10/3)\cdot (2+n) $ if&nbsp; $n=1$ mod $3$&nbsp; and&nbsp; $m = 3\cdot (2+n)$&nbsp; else.
+- Third last&nbsp; $m = (10/3)\cdot (2+n)$ if&nbsp; $n=1$ mod $3$&nbsp; and&nbsp; $m = 3\cdot (2+n)$&nbsp; else.
 
 For each&nbsp; $n$&nbsp;, the first and the second&nbsp; $j$&nbsp; in descending order are&nbsp; $10+4n$&nbsp; and&nbsp; $6+2n$&nbsp;. The third&nbsp; $j$&nbsp; depends on&nbsp; $3$&nbsp; being a divisor of&nbsp; $8+4n$&nbsp;, giving&nbsp; $n=1$ mod $3$&nbsp;.
 
 - Third&nbsp; $j = (2/3)\cdot (7+2n)$ if&nbsp; $n=1$ mod $3$&nbsp; and&nbsp; $j = 4+n$&nbsp; else.
  
-The last and the second to last&nbsp; $j$&nbsp; are&nbsp; $3$&nbsp; and&nbsp; $5$&nbsp;. The third last&nbsp; $j$&nbsp; depends on&nbsp; $3$&nbsp; being a divisor of&nbsp; $8+4n$&nbsp;, giving&nbsp; $n=1$ mod $3$&nbsp;.
+The last and the second to last&nbsp; $j$&nbsp; are&nbsp; $3$&nbsp; and&nbsp; $4$&nbsp;. The third last&nbsp; $j$&nbsp; depends on&nbsp; $3$&nbsp; being a divisor of&nbsp; $8+4n$&nbsp;, giving&nbsp; $n=1$ mod $3$&nbsp;.
 
 - Third last&nbsp; $j = 5$&nbsp; if&nbsp; $n=1$ mod $3$&nbsp; and&nbsp; $j = 6$&nbsp; else.
 
