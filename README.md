@@ -168,7 +168,8 @@ For each&nbsp; $n$&nbsp;, the first and the second&nbsp; $m$&nbsp; in ascending 
 - Third&nbsp; $m=2n+7$&nbsp; if&nbsp; $n=1$ mod $3$&nbsp; and&nbsp; $m=2n+8$&nbsp; else.
 
 $n=0$ mod $3~~~\Rightarrow~~~$&nbsp; third&nbsp; $m~=~6h+2$&nbsp; for some&nbsp; $h$
-(*n=1 mod 3 --> third m = 6h+3
+(*WORK IN PROGRESS
+n=1 mod 3 --> third m = 6h+3
 n=2 mod 3 --> third m = 6h
 This shows that the list of third m is given by OEIS A047244 (shifted).
 The last and the second to last m are 4n+8 and 2n+4. The third last m depends on 3 being a divisor of 8+4n, giving n=1 mod 3. The third last m = (8+4n)/t+4+2n (see above) with t=3 if n=1 mod 3 and t=4 else.
