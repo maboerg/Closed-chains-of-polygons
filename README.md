@@ -159,16 +159,17 @@ In figure 3 right we have&nbsp; $n = 2$&nbsp; and&nbsp; $m = 10$&nbsp;.&nbsp; Fr
 
 In figure 4 we have&nbsp; $n = 3$&nbsp; and&nbsp; $m = j = 12$&nbsp;.&nbsp; This matches with (1), see figure 9.
 
-
-Start and end of the list of&nbsp; $m$&nbsp; and the list of&nbsp; $j$
+# Start and end of the list of&nbsp; $m$&nbsp; and the list of&nbsp; $j$
+## Start and end of the list of&nbsp; $m$&nbsp; and the list of&nbsp; $j$
+### Start and end of the list of&nbsp; $m$&nbsp; and the list of&nbsp; $j$
 
 With the exception&nbsp; $n=0$&nbsp; and&nbsp; $n=2$&nbsp;, these lists contain at least&nbsp; $6$&nbsp; elements. We want to describe the first and last three elements.
 
-For each&nbsp; $n$&nbsp;, the first and the second&nbsp; $n$&nbsp; in ascending order are&nbsp; $2n+5$&nbsp; and&nbsp; $2n+6$&nbsp;. The third&nbsp; $m$&nbsp; depends on&nbsp; $3$&nbsp; being a divisor of&nbsp; $8+4n$&nbsp;. This gives&nbsp; $n=1 mod 3$&nbsp;.
+For each&nbsp; $n$&nbsp;, the first and the second&nbsp; $m$&nbsp; in ascending order are&nbsp; $2n+5$&nbsp; and&nbsp; $2n+6$&nbsp;. The third&nbsp; $m$&nbsp; depends on&nbsp; $3$&nbsp; being a divisor of&nbsp; $8+4n$&nbsp;. This gives&nbsp; $n=1 mod 3$&nbsp;.
 
-- Third&nbsp; $m~=~2n+7$&nbsp; if&nbsp; $n=1~mod~3$&nbsp; and&nbsp; $m~=~2n+8$&nbsp; else.
+- Third&nbsp; $m~=~2n+7$&nbsp; if&nbsp; $n=1$ mod $3$&nbsp; and&nbsp; $m~=~2n+8$&nbsp; else.
 
-$n=0 mod 3 \rightarrow$&nbsp; third&nbsp; $m = 6h+2$&nbsp; for some&nbsp; $h$
+$n=0$ mod $3~~~\Rightarrow~~~$&nbsp; third&nbsp; $m = 6h+2$&nbsp; for some&nbsp; $h$
 n=1 mod 3 --> third m = 6h+3
 n=2 mod 3 --> third m = 6h
 This shows that the list of third m is given by OEIS A047244 (shifted).
