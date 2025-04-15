@@ -181,13 +181,13 @@ The last and the second to last&nbsp; $m$&nbsp; are&nbsp; $4n+8$&nbsp; and&nbsp;
 
 - Third last&nbsp; $m = (2+n)\cdot (10/3)$ if&nbsp; $n=1$ mod $3$&nbsp; and&nbsp; $m = (2+n)\cdot 3$&nbsp; else.
 
-For each&nbsp; $n$&nbsp;, the first and the second&nbsp; $j$&nbsp; in descending order are&nbsp; $4n+10$&nbsp; and&nbsp; $2n+6$&nbsp;. The third&nbsp; $m$&nbsp; depends on&nbsp; $3$&nbsp; being a divisor of&nbsp; $8+4n$&nbsp;, giving&nbsp; $n=1$ mod& $3$&nbsp;.
+For each&nbsp; $n$&nbsp;, the first and the second&nbsp; $j$&nbsp; in descending order are&nbsp; $4n+10$&nbsp; and&nbsp; $2n+6$&nbsp;. The third&nbsp; $m$&nbsp; depends on&nbsp; $3$&nbsp; being a divisor of&nbsp; $8+4n$&nbsp;, giving&nbsp; $n=1$ mod $3$&nbsp;.
 
 - Third&nbsp; $j = (2/3)\cdot (7+2n)$ if&nbsp; $n=1$ mod $3$&nbsp; and&nbsp; $j = 4+n$&nbsp; else.
  
-The last and the second to last&nbsp; $j$&nbsp; are&nbsp; $3$&nbsp; and&nbsp; $5$&nbsp;. The third last&nbsp; $j$&nbsp; depends on&nbsp; $3$&nbsp; being a divisor of 8+4n, giving n=1 mod 3.
+The last and the second to last&nbsp; $j$&nbsp; are&nbsp; $3$&nbsp; and&nbsp; $5$&nbsp;. The third last&nbsp; $j$&nbsp; depends on&nbsp; $3$&nbsp; being a divisor of&nbsp; $8+4n$&nbsp;, giving&nbsp; $n=1$ mod $3$&nbsp;.
 
-- Third last j = 5 if n=1 mod 3 and j=6 else.
+- Third last&nbsp; $j = 5$ if&nbsp; $n=1$ mod $3$&nbsp; and&nbsp; $j = 6$&nbsp; else.
 
 ### Programs
 
