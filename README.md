@@ -159,6 +159,26 @@ In figure 3 right we have&nbsp; $n = 2$&nbsp; and&nbsp; $m = 10$&nbsp;.&nbsp; Fr
 
 In figure 4 we have&nbsp; $n = 3$&nbsp; and&nbsp; $m = j = 12$&nbsp;.&nbsp; This matches with (1), see figure 9.
 
+
+Start and end of the list of&nbsp; $m$&nbsp; and the list of&nbsp; $j$
+
+With the exception&nbsp; $n=0$&nbsp; and&nbsp; $n=2$&nbsp;, these lists contain at least&nbsp; $6$&nbsp; elements. We want to describe the first and last three elements.
+
+For each&nbsp; $n$&nbsp;, the first and the second&nbsp; $n$&nbsp; in ascending order are&nbsp; $2n+5$&nbsp; and&nbsp; $2n+6$&nbsp;. The third&nbsp; $m$&nbsp; depends on&nbsp; $3$&nbsp; being a divisor of&nbsp; $8+4n$&nbsp;. This gives&nbsp; $n=1 mod 3$&nbsp;.
+
+- Third&nbsp; $m~=~2n+7$&nbsp; if&nbsp; $n=1~mod~3$&nbsp; and&nbsp; $m~=~2n+8$&nbsp; else.
+
+$n=0 mod 3 \rightarrow$&nbsp; third&nbsp; $m = 6h+2$&nbsp; for some&nbsp; $h$
+n=1 mod 3 --> third m = 6h+3
+n=2 mod 3 --> third m = 6h
+This shows that the list of third m is given by OEIS A047244 (shifted).
+The last and the second to last m are 4n+8 and 2n+4. The third last m depends on 3 being a divisor of 8+4n, giving n=1 mod 3. The third last m = (8+4n)/t+4+2n (see above) with t=3 if n=1 mod 3 and t=4 else.
+Spiegelpunkt Third last m = (2+n)*(10/3) if n=1 mod 3 and m = (2+n)*3 else.
+For each n, the first and the second j in descending order are 4n+10 and 2n+6. The third j depends on 3 being a divisor of 8+4n, giving n=1 mod 3.
+Spiegelpunkt Third j = (2/3)*(7+2n) if n=1 mod 3 and  j = 4+n else.
+The last and the second to last j are 3 and 4. The third last j depends on 3 being a divisor of 8+4n, giving n=1 mod 3.
+Spiegelpunkt Third last j = 5 if n=1 mod 3 and j=6 else.
+
 ### Programs
 
 Readers are encouraged to program pictures of the chains. They may draw upon the following Mathematica code providing the enumeration of the chains.
