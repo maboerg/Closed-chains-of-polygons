@@ -169,7 +169,7 @@ For each&nbsp; $n$&nbsp;, the first and the second&nbsp; $m$&nbsp; in ascending 
 
 - Third&nbsp; $m=7+2n$&nbsp; if&nbsp; $n=1$ mod $3$&nbsp; and&nbsp; $m=8+n$&nbsp; else.
 
-$n=0$ mod $3~~~\Rightarrow~~~$&nbsp; third&nbsp; $m~=~2+6h$&nbsp; for some&nbsp; $h$
+$n=0$ mod $3~~~\Rightarrow~$&nbsp; third&nbsp; $m~=~2+6h$&nbsp; for some&nbsp; $h$
 
 $n=1$ mod $3~~~\Rightarrow~$&nbsp; third&nbsp; $m~=~3+6h$
 
@@ -177,11 +177,11 @@ $n=2$ mod $3~~~\Rightarrow~$&nbsp; third&nbsp; $m~=~6h$
 
 This shows that the list of third&nbsp; $m$&nbsp; is given by OEIS [A047244](http://oeis.org/A047244) (shifted).
 
-The last and the second to last&nbsp; $m$&nbsp; are&nbsp; $8+4n$&nbsp; and&nbsp; $4+2n$&nbsp;.&nbsp; $m$&nbsp; depends on&nbsp; $3$&nbsp; being a divisor of&nbsp; $8+4n$&nbsp;, giving&nbsp; $n=1$ mod $3$&nbsp;. The third last&nbsp; $m$&nbsp; is&nbsp; $(8+4n)/t+4+2n$ (see above) with&nbsp; $t=3$&nbsp; if&nbsp; $n=1$ mod $3$&nbsp; and&nbsp; $t=4$&nbsp; else.
+The last and the second to last&nbsp; $m$&nbsp; are&nbsp; $12+6n$&nbsp; and&nbsp; $8+4n$&nbsp;.&nbsp; $m$&nbsp; depends on&nbsp; $3$&nbsp; being a divisor of&nbsp; $8+4n$&nbsp;, giving&nbsp; $n=1$ mod $3$&nbsp;. The third last&nbsp; $m$&nbsp; is&nbsp; $(8+4n)/t+4+2n$ (see above) with&nbsp; $t=3$&nbsp; if&nbsp; $n=1$ mod $3$&nbsp; and&nbsp; $t=4$&nbsp; else.
 
-- Third last&nbsp; $m = (2+n)\cdot (10/3)$ if&nbsp; $n=1$ mod $3$&nbsp; and&nbsp; $m = (2+n)\cdot 3$&nbsp; else.
+- Third last&nbsp; $m = (10/3)\cdot (2+n) $ if&nbsp; $n=1$ mod $3$&nbsp; and&nbsp; $m = 3\cdot (2+n)$&nbsp; else.
 
-For each&nbsp; $n$&nbsp;, the first and the second&nbsp; $j$&nbsp; in descending order are&nbsp; $10+4n$&nbsp; and&nbsp; $6+n$&nbsp;. The third&nbsp; $j$&nbsp; depends on&nbsp; $3$&nbsp; being a divisor of&nbsp; $8+4n$&nbsp;, giving&nbsp; $n=1$ mod $3$&nbsp;.
+For each&nbsp; $n$&nbsp;, the first and the second&nbsp; $j$&nbsp; in descending order are&nbsp; $10+4n$&nbsp; and&nbsp; $6+2n$&nbsp;. The third&nbsp; $j$&nbsp; depends on&nbsp; $3$&nbsp; being a divisor of&nbsp; $8+4n$&nbsp;, giving&nbsp; $n=1$ mod $3$&nbsp;.
 
 - Third&nbsp; $j = (2/3)\cdot (7+2n)$ if&nbsp; $n=1$ mod $3$&nbsp; and&nbsp; $j = 4+n$&nbsp; else.
  
