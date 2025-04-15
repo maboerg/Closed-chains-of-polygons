@@ -139,9 +139,9 @@ We got a complete result:
 
 - $m$&nbsp; and&nbsp; $j$&nbsp; are interdepending:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $m = 4 + 2n + (8+4n)/(j-2)$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **$m = 4 + 2n + (8+4n)/(j-2)$**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $j = 2 + (8+4n)/(m-4-2n)$
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **$j = 2 + (8+4n)/(m-4-2n)$**
 
 - For every&nbsp; $m \ge 5$&nbsp; exists a closed chain of&nbsp; $m$-gons.
 
@@ -165,23 +165,23 @@ In figure 4 we have&nbsp; $n = 3$&nbsp; and&nbsp; $m = j = 12$&nbsp;.&nbsp; This
 
 With the exception&nbsp; $n=0$&nbsp; and&nbsp; $n=2$&nbsp;, these lists contain at least&nbsp; $6$&nbsp; elements. We want to describe the first and last three elements.
 
-For each&nbsp; $n$&nbsp;, the first and the second&nbsp; $m$&nbsp; in ascending order are&nbsp; $2n+5$&nbsp; and&nbsp; $2n+6$&nbsp;. The third&nbsp; $m$&nbsp; depends on&nbsp; $3$&nbsp; being a divisor of&nbsp; $8+4n$&nbsp;. This gives&nbsp; $n=1$ mod $3$&nbsp;.
+For each&nbsp; $n$&nbsp;, the first and the second&nbsp; $m$&nbsp; in ascending order are&nbsp; $5+2n$&nbsp; and&nbsp; $6+2n$&nbsp;. The third&nbsp; $m$&nbsp; depends on&nbsp; $3$&nbsp; being a divisor of&nbsp; $8+4n$&nbsp;. This gives&nbsp; $n=1$ mod $3$&nbsp;.
 
-- Third&nbsp; $m=2n+7$&nbsp; if&nbsp; $n=1$ mod $3$&nbsp; and&nbsp; $m=2n+8$&nbsp; else.
+- Third&nbsp; $m=7+2n$&nbsp; if&nbsp; $n=1$ mod $3$&nbsp; and&nbsp; $m=8+n$&nbsp; else.
 
-$n=0$ mod $3~~~\Rightarrow~~~$&nbsp; third&nbsp; $m~=~6h+2$&nbsp; for some&nbsp; $h$
+$n=0$ mod $3~~~\Rightarrow~~~$&nbsp; third&nbsp; $m~=~2+6h$&nbsp; for some&nbsp; $h$
 
-$n=1$ mod $3~~~\Rightarrow~~~$&nbsp; third&nbsp; $m~=~6h+3$
+$n=1$ mod $3~~~\Rightarrow~$&nbsp; third&nbsp; $m~=~3+6h$
 
-$n=2$ mod $3~~~\Rightarrow~~~$&nbsp; third&nbsp; $m~=~6h$
+$n=2$ mod $3~~~\Rightarrow~$&nbsp; third&nbsp; $m~=~6h$
 
 This shows that the list of third&nbsp; $m$&nbsp; is given by OEIS [A047244](http://oeis.org/A047244) (shifted).
 
-The last and the second to last&nbsp; $m$&nbsp; are&nbsp; $4n+8$&nbsp; and&nbsp; $2n+4$&nbsp;.&nbsp; $m$&nbsp; depends on&nbsp; $3$&nbsp; being a divisor of&nbsp; $8+4n$&nbsp;, giving&nbsp; $n=1$ mod $3$&nbsp;. The third last&nbsp; $m$&nbsp; is&nbsp; $(8+4n)/t+4+2n$ (see above) with&nbsp; $t=3$&nbsp; if&nbsp; $n=1$ mod $3$&nbsp; and&nbsp; $t=4$&nbsp; else.
+The last and the second to last&nbsp; $m$&nbsp; are&nbsp; $8+4n$&nbsp; and&nbsp; $4+2n$&nbsp;.&nbsp; $m$&nbsp; depends on&nbsp; $3$&nbsp; being a divisor of&nbsp; $8+4n$&nbsp;, giving&nbsp; $n=1$ mod $3$&nbsp;. The third last&nbsp; $m$&nbsp; is&nbsp; $(8+4n)/t+4+2n$ (see above) with&nbsp; $t=3$&nbsp; if&nbsp; $n=1$ mod $3$&nbsp; and&nbsp; $t=4$&nbsp; else.
 
 - Third last&nbsp; $m = (2+n)\cdot (10/3)$ if&nbsp; $n=1$ mod $3$&nbsp; and&nbsp; $m = (2+n)\cdot 3$&nbsp; else.
 
-For each&nbsp; $n$&nbsp;, the first and the second&nbsp; $j$&nbsp; in descending order are&nbsp; $4n+10$&nbsp; and&nbsp; $2n+6$&nbsp;. The third&nbsp; $j$&nbsp; depends on&nbsp; $3$&nbsp; being a divisor of&nbsp; $8+4n$&nbsp;, giving&nbsp; $n=1$ mod $3$&nbsp;.
+For each&nbsp; $n$&nbsp;, the first and the second&nbsp; $j$&nbsp; in descending order are&nbsp; $10+4n$&nbsp; and&nbsp; $6+n$&nbsp;. The third&nbsp; $j$&nbsp; depends on&nbsp; $3$&nbsp; being a divisor of&nbsp; $8+4n$&nbsp;, giving&nbsp; $n=1$ mod $3$&nbsp;.
 
 - Third&nbsp; $j = (2/3)\cdot (7+2n)$ if&nbsp; $n=1$ mod $3$&nbsp; and&nbsp; $j = 4+n$&nbsp; else.
  
