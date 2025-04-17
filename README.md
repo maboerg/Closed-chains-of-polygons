@@ -167,7 +167,7 @@ With the exception&nbsp; $n=0$&nbsp; and&nbsp; $n=2$&nbsp;, these lists contain 
 
 For each&nbsp; $n$&nbsp;, the first and the second&nbsp; $m$&nbsp; in ascending order are&nbsp; $5+2n$&nbsp; and&nbsp; $6+2n$&nbsp;. The third&nbsp; $m$&nbsp; depends on&nbsp; $3$&nbsp; being a divisor of&nbsp; $8+4n$&nbsp;. This gives&nbsp; $n=1$ mod $3$&nbsp;.
 
-- Third&nbsp; $m=7+2n$&nbsp; if&nbsp; $n=1$ mod $3$&nbsp; and&nbsp; $m=8+n$&nbsp; else.
+- Third&nbsp; $m=7+2n$&nbsp; if&nbsp; $n=1$ mod $3$&nbsp; and&nbsp; $m=8+2n$&nbsp; else.
 
 $n=0$ mod $3~~~\Rightarrow~$&nbsp; third&nbsp; $m~=~2+6h$&nbsp; for some&nbsp; $h$
 
