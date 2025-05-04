@@ -171,15 +171,21 @@ For each&nbsp; $n$&nbsp;, the first and the second&nbsp; $m$&nbsp; in ascending 
 
 $n=0$ mod $3~~~\Rightarrow~$&nbsp; third&nbsp; $m~=~2+6h$&nbsp; for some&nbsp; $h\ge 1$
 
-$n=1$ mod $3~~~\Rightarrow~$&nbsp; third&nbsp; $m~=~3+6h$
+$n=1$ mod $3~~~\Rightarrow~$&nbsp; third&nbsp; $m~=~3+6h$&nbsp; for some&nbsp; $h\ge 1$
 
-$n=2$ mod $3~~~\Rightarrow~$&nbsp; third&nbsp; $m~=~6h$
+$n=2$ mod $3~~~\Rightarrow~$&nbsp; third&nbsp; $m~=~6h$&nbsp; for some&nbsp; $h\ge 2$
 
 This shows that the list of third&nbsp; $m$&nbsp; is given by OEIS [A047244](http://oeis.org/A047244) (shifted).
 
 The last and the second to last&nbsp; $m$&nbsp; are&nbsp; $12+6n$&nbsp; and&nbsp; $8+4n$&nbsp;.&nbsp; The third last&nbsp; $m$&nbsp; depends on&nbsp; $3$&nbsp; being a divisor of&nbsp; $8+4n$&nbsp;, giving&nbsp; $n=1$ mod $3$&nbsp;. The third last&nbsp; $m$&nbsp; is&nbsp; $(8+4n)/t+4+2n$ (see above) with&nbsp; $t=3$&nbsp; if&nbsp; $n=1$ mod $3$&nbsp; and&nbsp; $t=4$&nbsp; else.
 
 - Third last&nbsp; $m = (10/3)\cdot (2+n)$ if&nbsp; $n=1$ mod $3$&nbsp; and&nbsp; $m = 3\cdot (2+n)$&nbsp; else.
+  
+$n=0$ mod $3~~~\Rightarrow~$&nbsp; third&nbsp; $m~=~6+9h$&nbsp; for some&nbsp; $h\ge 0$
+
+$n=1$ mod $3~~~\Rightarrow~$&nbsp; third&nbsp; $m~=~10+10h$&nbsp; for some&nbsp; $h\ge 0$
+
+$n=2$ mod $3~~~\Rightarrow~$&nbsp; third&nbsp; $m~=~12+9h$&nbsp; for some&nbsp; $h\ge 0$
 
 For each&nbsp; $n$&nbsp;, the first and the second&nbsp; $j$&nbsp; in descending order are&nbsp; $10+4n$&nbsp; and&nbsp; $6+2n$&nbsp;. The third&nbsp; $j$&nbsp; depends on&nbsp; $3$&nbsp; being a divisor of&nbsp; $8+4n$&nbsp;, giving&nbsp; $n=1$ mod $3$&nbsp;.
 
