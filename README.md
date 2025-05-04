@@ -181,16 +181,22 @@ The last and the second to last&nbsp; $m$&nbsp; are&nbsp; $12+6n$&nbsp; and&nbsp
 
 - Third last&nbsp; $m = (10/3)\cdot (2+n)$ if&nbsp; $n=1$ mod $3$&nbsp; and&nbsp; $m = 3\cdot (2+n)$&nbsp; else.
   
-$n=0$ mod $3~~~\Rightarrow~$&nbsp; third&nbsp; $m~=~6+9h$&nbsp; for some&nbsp; $h\ge 0$
+$n=0$ mod $3~~~\Rightarrow~$&nbsp; third last&nbsp; $m~=~6+9h$&nbsp; for some&nbsp; $h\ge 0$
 
-$n=1$ mod $3~~~\Rightarrow~$&nbsp; third&nbsp; $m~=~10+10h$&nbsp; for some&nbsp; $h\ge 0$
+$n=1$ mod $3~~~\Rightarrow~$&nbsp; third last&nbsp; $m~=~10+10h$&nbsp; for some&nbsp; $h\ge 0$
 
-$n=2$ mod $3~~~\Rightarrow~$&nbsp; third&nbsp; $m~=~12+9h$&nbsp; for some&nbsp; $h\ge 0$
+$n=2$ mod $3~~~\Rightarrow~$&nbsp; third last&nbsp; $m~=~12+9h$&nbsp; for some&nbsp; $h\ge 0$
 
 For each&nbsp; $n$&nbsp;, the first and the second&nbsp; $j$&nbsp; in descending order are&nbsp; $10+4n$&nbsp; and&nbsp; $6+2n$&nbsp;. The third&nbsp; $j$&nbsp; depends on&nbsp; $3$&nbsp; being a divisor of&nbsp; $8+4n$&nbsp;, giving&nbsp; $n=1$ mod $3$&nbsp;.
 
 - Third&nbsp; $j = (2/3)\cdot (7+2n)$ if&nbsp; $n=1$ mod $3$&nbsp; and&nbsp; $j = 4+n$&nbsp; else.
  
+$n=0$ mod $3~~~\Rightarrow~$&nbsp; third&nbsp; $j~=~4+3h$&nbsp; for some&nbsp; $h\ge 0$
+
+$n=1$ mod $3~~~\Rightarrow~$&nbsp; third&nbsp; $j~=~6+4h$&nbsp; for some&nbsp; $h\ge 0$
+
+$n=2$ mod $3~~~\Rightarrow~$&nbsp; third&nbsp; $j~=~6+3h$&nbsp; for some&nbsp; $h\ge 0$
+
 The last and the second to last&nbsp; $j$&nbsp; are&nbsp; $3$&nbsp; and&nbsp; $4$&nbsp;. The third last&nbsp; $j$&nbsp; depends on&nbsp; $3$&nbsp; being a divisor of&nbsp; $8+4n$&nbsp;, giving&nbsp; $n=1$ mod $3$&nbsp;.
 
 - Third last&nbsp; $j = 5$&nbsp; if&nbsp; $n=1$ mod $3$&nbsp; and&nbsp; $j = 6$&nbsp; else.
