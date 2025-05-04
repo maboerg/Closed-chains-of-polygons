@@ -282,10 +282,10 @@ We got&nbsp; $a(n) = d(8 + 4n)$&nbsp; in (2). The sequence&nbsp; $d(.)$&nbsp; is
 
 1, 2, 2, 3, 2, 4, 2, $\textbf{4}$, 3, 4, 2, $\textbf{6}$, 2, 4, 4, $\textbf{5}$, 2, 6, 2, $\textbf{6}$, 4, 4, 2, $\textbf{8}$, 3, 4, 4, $\textbf{6}$, 2, 8, 2, $\textbf{6}$, 4, 4, 4, $\textbf{9}$, 2, 4, 4, $\textbf{8}$, 2, 8, 2, $\textbf{6}$, 6, 4, 2, $\textbf{10}$, 3, 6, 4, $\textbf{6}$, 2, 8, 4, $\textbf{8}$, 4, 4, 2, $\textbf{12}$, 2, 4, 6, $\textbf{7}$, 4, 8, 2, $\textbf{6}$, 4, 8, 2, $\textbf{12}$, 2, 4, 6, $\textbf{6}$, 4, 8, 2, $\textbf{10}$, 5, 4, 2, $\textbf{12}$, 4, 4, 4, $\textbf{8}$, 2, 12, 4, $\textbf{6}$, 4, 4, 4, $\textbf{12}$, 2, 6, 6, $\textbf{9}$, 2, 8, 2, $\textbf{8}, ...$
 
-The OEIS sequence [A383168](http://oeis.org/A383168), accepted on Apr 18, 2025, displays a triangle containing the possible&nbsp; $m$&nbsp; for&nbsp; $n$&nbsp; in the&nbsp; $n-$th row. The top of this OEIS file shows the flattened version:
+The OEIS sequence [A383168](http://oeis.org/A383168), accepted on Apr 18, 2025, displays a triangle containing the possible&nbsp; $m$&nbsp; for&nbsp; $n$&nbsp; in the&nbsp; $n$-th row. The top of this OEIS file shows the flattened version:
 
 $5, 6, 8, 12, 7, 8, 9, 10, 12, 18, 9, 10, 12, 16, 24, 11, 12, 14, 15, 20, 30, 13, 14, 15, 16, 18, 20, 24, 36, 15, 16, 18, 21, 28, 42, 17, 18, 20, 24, 32, 48, 19, 20, 21, 22, 24, 27, 30, 36, 54, 21, 22, 24, 25, 28, 30, 40, 60, 23, 24, 26, 33, 44, 66$
 
-The OEIS sequence [A383169](http://oeis.org/A383169), accepted on Apr 18, 2025, displays a triangle containing the possible&nbsp; $j$&nbsp; for&nbsp; $n$&nbsp; in the&nbsp; $n-$th row. The top of this OEIS file shows the flattened version:
+The OEIS sequence [A383169](http://oeis.org/A383169), accepted on Apr 18, 2025, displays a triangle containing the possible&nbsp; $j$&nbsp; for&nbsp; $n$&nbsp; in the&nbsp; $n$-th row. The top of this OEIS file shows the flattened version:
 
 $10, 6, 4, 3, 14, 8, 6, 5, 4, 3, 18, 10, 6, 4, 3, 22, 12, 7, 6, 4, 3, 26, 14, 10, 8, 6, 5, 4, 3, 30, 16, 9, 6, 4, 3, 34, 18, 10, 6, 4, 3, 38, 20, 14, 11, 8, 6, 5, 4, 3, 42, 22, 12, 10, 7, 6, 4, 3, 46, 24, 13, 6, 4, 3, 50, 26, 18, 14, 10, 8, 6, 5, 4, 3$
