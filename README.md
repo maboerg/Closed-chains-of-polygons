@@ -169,7 +169,7 @@ For each&nbsp; $n$&nbsp;, the first and the second&nbsp; $m$&nbsp; in ascending 
 
 - Third&nbsp; $m=7+2n$&nbsp; if&nbsp; $n=1$ mod $3$&nbsp; and&nbsp; $m=8+2n$&nbsp; else.
 
-$n=0$ mod $3~~~\Rightarrow~$&nbsp; third&nbsp; $m~=~2+6h$&nbsp; for some&nbsp; $h$
+$n=0$ mod $3~~~\Rightarrow~$&nbsp; third&nbsp; $m~=~2+6h$&nbsp; for some&nbsp; $h\ge 1$
 
 $n=1$ mod $3~~~\Rightarrow~$&nbsp; third&nbsp; $m~=~3+6h$
 
